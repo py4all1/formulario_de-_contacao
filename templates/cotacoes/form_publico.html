@@ -1,0 +1,233 @@
+{% load static widget_tweaks %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário de Cotação — Electrolux</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+
+<div class="public-hero">
+  <div class="inner">
+    <div class="logo">E</div>
+    <div>
+      <h1>Formulário de Cotação / Cadastro</h1>
+      <p>Preencha os dados abaixo. Os campos em <span style="background:var(--field);padding:1px 6px;border-radius:5px;color:#5a4a00">amarelo</span> são de preenchimento manual; os cinza são calculados automaticamente.</p>
+    </div>
+  </div>
+</div>
+
+<div class="public">
+  {% if messages %}{% for m in messages %}<div class="alert {{ m.tags }}">{{ m }}</div>{% endfor %}{% endif %}
+
+  <form method="post" id="cotacao-form" novalidate>
+    {% csrf_token %}
+
+    {% if form.non_field_errors %}<div class="alert danger">{{ form.non_field_errors }}</div>{% endif %}
+
+    <div class="grid cols-2" style="align-items:start">
+      <div style="min-width:0">
+
+        <!-- 1. Dados da Electrolux -->
+        <div class="section">
+          <h2><span class="step">1</span> Dados da Electrolux</h2>
+          <div class="body">
+            <div class="field manual">
+              <label>Selecione a filial <span class="req">*</span></label>
+              {% render_field form.filial data-info-url="/api/filial/0/" %}
+              {% if form.filial.errors %}<ul class="errorlist">{{ form.filial.errors }}</ul>{% endif %}
+            </div>
+            <div id="filial-info" class="alert info hidden"></div>
+
+            <div class="field">
+              <label>Tipo de fornecimento <span class="req">*</span></label>
+              <div class="tag-tipo" id="tipo-cards">
+                <div class="opt" data-val="Serviços">🧾 Serviços</div>
+                <div class="opt" data-val="Mercadoria">📦 Mercadoria</div>
+                <div class="opt" data-val="Serviços e Mercadoria">🧾📦 Ambos</div>
+              </div>
+              <div class="hidden">{{ form.tipo_fornecimento }}</div>
+              {% if form.tipo_fornecimento.errors %}<ul class="errorlist">{{ form.tipo_fornecimento.errors }}</ul>{% endif %}
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Dados do Fornecedor -->
+        <div class="section">
+          <h2><span class="step">2</span> Dados do Fornecedor</h2>
+          <div class="body">
+            <div class="grid cols-2">
+              <div class="field manual"><label>CNPJ <span class="req">*</span></label>{{ form.cnpj }}{% if form.cnpj.errors %}<ul class="errorlist">{{ form.cnpj.errors }}</ul>{% endif %}</div>
+              <div class="field manual"><label>Regime tributário <span class="req">*</span></label>{{ form.regime }}{% if form.regime.errors %}<ul class="errorlist">{{ form.regime.errors }}</ul>{% endif %}</div>
+            </div>
+            <div class="field manual"><label>Razão social <span class="req">*</span></label>{{ form.razao_social }}{% if form.razao_social.errors %}<ul class="errorlist">{{ form.razao_social.errors }}</ul>{% endif %}</div>
+            <div class="field manual"><label>Nome fantasia</label>{{ form.nome_fantasia }}</div>
+            <div class="grid cols-2">
+              <div class="field manual"><label>Endereço</label>{{ form.endereco }}</div>
+              <div class="field manual"><label>Bairro</label>{{ form.bairro }}</div>
+            </div>
+            <div class="grid cols-3">
+              <div class="field manual"><label>Cidade</label>{{ form.cidade }}</div>
+              <div class="field manual"><label>Estado (UF)</label>{{ form.estado }}</div>
+              <div class="field manual"><label>CEP</label>{{ form.cep }}</div>
+            </div>
+            <h3 style="color:var(--brand);font-size:15px;margin:6px 0 10px">Contatos</h3>
+            <div class="grid cols-2">
+              <div class="field manual"><label>E-mail</label>{{ form.email }}</div>
+              <div class="field manual"><label>Telefone / WhatsApp</label>{{ form.telefone }}</div>
+            </div>
+            <div class="grid cols-3">
+              <div class="field manual"><label>Número da proposta</label>{{ form.numero_proposta }}</div>
+              <div class="field manual"><label>Frete</label>{{ form.frete }}</div>
+              <div class="field manual"><label>Prazo de pagamento</label>{{ form.prazo_pagamento }}</div>
+            </div>
+            <div class="field manual" style="max-width:240px"><label>Data de emissão</label>{{ form.data_emissao }}</div>
+          </div>
+        </div>
+
+        <!-- 3. Serviços -->
+        <div class="section hidden" id="sec-servicos" data-section="servicos">
+          <h2><span class="step">3</span> Itens de Serviço</h2>
+          <div class="body">
+            <p class="muted" style="margin-top:0">Informe o valor, escolha o código do serviço (a descrição e o código SAP são preenchidos automaticamente) e os percentuais de retenção.</p>
+            {{ srv_fs.management_form }}
+            <div id="srv-items">
+              {% for f in srv_fs %}
+                {{ f.id }}
+                <div class="item-card srv-item">
+                  <button type="button" class="btn sm ghost rm" style="color:var(--danger)">✕ remover</button>
+                  <div class="grid cols-3">
+                    <div class="field manual"><label>Valor do serviço</label>{{ f.valor_servico }}</div>
+                    <div class="field manual" style="grid-column:span 2"><label>Código do serviço</label>{{ f.codigo_servico }}</div>
+                  </div>
+                  <div class="field"><label>Descrição</label>{{ f.descricao }}</div>
+                  <div class="grid cols-4">
+                    <div class="field manual"><label>% ISS retido</label>{{ f.perc_iss }}</div>
+                    <div class="field manual"><label>% INSS retido</label>{{ f.perc_inss }}</div>
+                    <div class="field manual"><label>% CSRF retido</label>{{ f.perc_csrf }}</div>
+                    <div class="field manual"><label>% IRRF retido</label>{{ f.perc_irrf }}</div>
+                  </div>
+                  <div class="grid cols-3">
+                    <div class="field"><label>Total retido</label><input type="text" class="form-control out-retido" readonly></div>
+                    <div class="field"><label>Código SAP</label>{{ f.codigo_sap }}</div>
+                    <div class="field"><label>Valor líquido</label><input type="text" class="form-control out-liquido" readonly></div>
+                  </div>
+                  <div class="hidden">{{ f.DELETE }}</div>
+                </div>
+              {% endfor %}
+            </div>
+            <template id="srv-empty">
+              <div class="item-card srv-item">
+                <button type="button" class="btn sm ghost rm" style="color:var(--danger)">✕ remover</button>
+                <div class="grid cols-3">
+                  <div class="field manual"><label>Valor do serviço</label>{{ srv_fs.empty_form.valor_servico }}</div>
+                  <div class="field manual" style="grid-column:span 2"><label>Código do serviço</label>{{ srv_fs.empty_form.codigo_servico }}</div>
+                </div>
+                <div class="field"><label>Descrição</label>{{ srv_fs.empty_form.descricao }}</div>
+                <div class="grid cols-4">
+                  <div class="field manual"><label>% ISS retido</label>{{ srv_fs.empty_form.perc_iss }}</div>
+                  <div class="field manual"><label>% INSS retido</label>{{ srv_fs.empty_form.perc_inss }}</div>
+                  <div class="field manual"><label>% CSRF retido</label>{{ srv_fs.empty_form.perc_csrf }}</div>
+                  <div class="field manual"><label>% IRRF retido</label>{{ srv_fs.empty_form.perc_irrf }}</div>
+                </div>
+                <div class="grid cols-3">
+                  <div class="field"><label>Total retido</label><input type="text" class="form-control out-retido" readonly></div>
+                  <div class="field"><label>Código SAP</label>{{ srv_fs.empty_form.codigo_sap }}</div>
+                  <div class="field"><label>Valor líquido</label><input type="text" class="form-control out-liquido" readonly></div>
+                </div>
+                <div class="hidden">{{ srv_fs.empty_form.DELETE }}</div>
+              </div>
+            </template>
+            <button type="button" class="btn outline" id="add-srv">+ Adicionar serviço</button>
+          </div>
+        </div>
+
+        <!-- 4. Mercadorias -->
+        <div class="section hidden" id="sec-mercadorias" data-section="mercadorias">
+          <h2><span class="step">4</span> Itens de Mercadoria</h2>
+          <div class="body">
+            <p class="muted" style="margin-top:0">Informe quantidade, valor unitário e impostos. IPI, base e valor de ICMS e total são calculados automaticamente.</p>
+            {{ mer_fs.management_form }}
+            <div id="mer-items">
+              {% for f in mer_fs %}
+                {{ f.id }}
+                <div class="item-card mer-item">
+                  <button type="button" class="btn sm ghost rm" style="color:var(--danger)">✕ remover</button>
+                  {% include 'cotacoes/_mercadoria_fields.html' with f=f %}
+                  <div class="hidden">{{ f.DELETE }}</div>
+                </div>
+              {% endfor %}
+            </div>
+            <template id="mer-empty">
+              <div class="item-card mer-item">
+                <button type="button" class="btn sm ghost rm" style="color:var(--danger)">✕ remover</button>
+                {% include 'cotacoes/_mercadoria_fields.html' with f=mer_fs.empty_form %}
+                <div class="hidden">{{ mer_fs.empty_form.DELETE }}</div>
+              </div>
+            </template>
+            <button type="button" class="btn outline" id="add-mer">+ Adicionar mercadoria</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Coluna resumo -->
+      <div>
+        <div class="section sticky-resumo">
+          <h2>💰 Resumo</h2>
+          <div class="body">
+            <div class="totais-line"><span>Total serviço (líquido)</span><span id="t-servico">R$ 0,00</span></div>
+            <div class="totais-line"><span>Total retido</span><span id="t-retido">R$ 0,00</span></div>
+            <div class="totais-line"><span>Total material</span><span id="t-material">R$ 0,00</span></div>
+            <div class="totais-line"><span>Total IPI</span><span id="t-ipi">R$ 0,00</span></div>
+            <div class="totais-line"><span>Total ICMS</span><span id="t-icms">R$ 0,00</span></div>
+            <div class="totais-line big"><span>A receber</span><span id="t-liquido">R$ 0,00</span></div>
+            <button class="btn primary" id="btn-enviar" disabled
+                    style="width:100%;justify-content:center;margin-top:16px" type="submit">Enviar cotação</button>
+            <p class="help" id="aceite-hint" style="text-align:center">Aceite os termos (abaixo) para habilitar o envio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. Termos de aceite -->
+    <div class="section" id="sec-termos">
+      <h2><span class="step">5</span> Termos e Condições da Electrolux</h2>
+      <div class="body">
+        <p class="muted" style="margin-top:0">Leia os documentos abaixo. É obrigatório aceitar para enviar a cotação. Você pode ler aqui mesmo ou baixar o arquivo original.</p>
+        {% for t in termos %}
+        <div class="item-card" style="background:#fff">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+            <strong>{{ t.titulo }}</strong>
+            <a class="btn sm outline" href="{% url 'termo_download' t.slug %}">⬇ Baixar (.docx)</a>
+          </div>
+          {% if t.paragrafos %}
+          <details style="margin-top:10px">
+            <summary style="cursor:pointer;color:var(--brand-2);font-weight:600">Ler o documento</summary>
+            <div style="max-height:320px;overflow:auto;border:1px solid var(--line);border-radius:10px;
+                        padding:14px;margin-top:10px;background:#fafcff;font-size:13.5px;line-height:1.6">
+              {% for p in t.paragrafos %}<p style="margin:0 0 8px">{{ p }}</p>{% endfor %}
+            </div>
+          </details>
+          {% endif %}
+        </div>
+        {% endfor %}
+
+        <label style="display:flex;align-items:flex-start;gap:10px;margin-top:14px;cursor:pointer;
+                      padding:14px;border:2px solid var(--brand-light);border-radius:12px;background:var(--brand-light)">
+          {{ form.aceite }}
+          <span style="font-weight:600">{{ form.aceite.label }}<br>
+            <span class="muted" style="font-weight:400">Declaro que li e estou de acordo com o Manual de EHS, a Instrução de Contratação e os Termos e Condições Gerais de Compra acima.</span>
+          </span>
+        </label>
+        {% if form.aceite.errors %}<ul class="errorlist">{{ form.aceite.errors }}</ul>{% endif %}
+      </div>
+    </div>
+  </form>
+</div>
+
+<script src="{% static 'js/form.js' %}"></script>
+</body>
+</html>

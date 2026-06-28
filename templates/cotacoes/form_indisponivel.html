@@ -1,0 +1,23 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Link indisponível</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<div class="center-box" style="text-align:center">
+  {% if motivo == 'enviado' %}
+    <div style="font-size:64px">📨</div>
+    <h1 style="color:var(--brand)">Cotação já enviada</h1>
+    <p class="muted">Este link já foi utilizado para enviar uma cotação. Caso precise enviar outra, solicite um novo link à Electrolux.</p>
+  {% else %}
+    <div style="font-size:64px">⏰</div>
+    <h1 style="color:var(--brand)">Link expirado</h1>
+    <p class="muted">O prazo para preenchimento deste formulário expirou. Solicite um novo link à Electrolux.</p>
+  {% endif %}
+</div>
+</body>
+</html>

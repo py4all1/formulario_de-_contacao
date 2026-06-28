@@ -1,0 +1,35 @@
+{% load widget_tweaks %}
+<div class="grid cols-2">
+  <div class="field manual"><label>Código ou descrição do item</label>{{ f.item }}</div>
+  <div class="grid cols-2" style="margin:0">
+    <div class="field manual"><label>Quantidade</label>{{ f.quantidade }}</div>
+    <div class="field manual"><label>Unidade</label>{{ f.unidade }}</div>
+  </div>
+</div>
+<div class="grid cols-3">
+  <div class="field manual"><label>Valor unitário</label>{{ f.valor_unitario }}</div>
+  <div class="field manual"><label>Prazo de entrega</label>{{ f.prazo_entrega }}</div>
+  <div class="field manual"><label>Categoria</label>{{ f.categoria }}</div>
+</div>
+<div class="grid cols-4">
+  <div class="field manual"><label>CST ICMS</label>{{ f.cst_icms }}</div>
+  <div class="field manual"><label>CFOP</label>{{ f.cfop }}</div>
+  <div class="field manual"><label>COD CEST</label>{{ f.cod_cest }}</div>
+  <div class="field manual"><label>NCM</label>{{ f.ncm }}</div>
+</div>
+<div class="grid cols-4">
+  <div class="field manual"><label>Exceção</label>{{ f.excecao }}</div>
+  <div class="field manual"><label>IPI %</label>{{ f.perc_ipi }}</div>
+  <div class="field manual"><label>ICMS %</label>{{ f.perc_icms }}</div>
+  <div class="field manual"><label>% Redução base ICMS</label>{{ f.perc_reducao_base }}</div>
+</div>
+<div class="grid cols-4">
+  <div class="field manual"><label>ICMS ST</label>{{ f.icms_st }}</div>
+  <div class="field"><label>Valor IPI</label><input type="text" class="form-control out-ipi" readonly></div>
+  <div class="field"><label>Base ICMS</label><input type="text" class="form-control out-base" readonly></div>
+  <div class="field"><label>Valor ICMS</label><input type="text" class="form-control out-vicms" readonly></div>
+</div>
+<div class="grid cols-2">
+  <div class="field"><label>Valor total</label><input type="text" class="form-control out-total" readonly></div>
+  <div class="field manual"><label>Observações</label>{{ f.observacoes }}</div>
+</div>

@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cotação enviada</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<div class="center-box" style="text-align:center">
+  <div style="font-size:64px">✅</div>
+  <h1 style="color:var(--brand)">Cotação enviada com sucesso!</h1>
+  <p class="muted">Obrigado{% if convite.fornecedor_nome %}, {{ convite.fornecedor_nome }}{% endif %}. Seus dados foram registrados e já estão disponíveis para a equipe da Electrolux.</p>
+  <div class="card" style="margin-top:18px">
+    <div class="card-b">
+      <p style="margin:0">Você pode fechar esta página. Caso precise enviar uma nova cotação, solicite um novo link.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

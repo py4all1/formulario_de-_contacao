@@ -1,0 +1,40 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrar — WeFix Cotações</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<div class="center-box">
+  <div style="text-align:center;margin-bottom:18px">
+    <div class="public-hero" style="display:none"></div>
+    <div style="display:inline-grid;place-items:center;width:56px;height:56px;border-radius:14px;background:var(--brand);color:#fff;font-weight:800;font-size:26px">W</div>
+    <h1 style="margin:12px 0 0;color:var(--brand)">WeFix Cotações</h1>
+    <p class="muted">Área do administrador</p>
+  </div>
+  <div class="card">
+    <div class="card-b">
+      {% if form.errors %}
+        <div class="alert danger">Usuário ou senha inválidos.</div>
+      {% endif %}
+      <form method="post">
+        {% csrf_token %}
+        <div class="field">
+          <label>Usuário</label>
+          <input type="text" name="username" class="form-control" autofocus required>
+        </div>
+        <div class="field">
+          <label>Senha</label>
+          <input type="password" name="password" class="form-control" required>
+        </div>
+        <input type="hidden" name="next" value="{{ next }}">
+        <button class="btn primary" style="width:100%;justify-content:center">Entrar</button>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

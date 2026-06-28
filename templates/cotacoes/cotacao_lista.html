@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block title %}Cotações — WeFix{% endblock %}
+{% block heading %}Cotações{% endblock %}
+
+{% block content %}
+<div class="card" style="margin-bottom:18px">
+  <div class="card-b">
+    <form method="get" style="display:flex;gap:12px;flex-wrap:wrap;align-items:end">
+      <div class="field" style="flex:1;min-width:220px;margin:0">
+        <label>Buscar</label>
+        <input type="text" name="q" value="{{ busca }}" class="form-control"
+               placeholder="Razão social, nome fantasia ou CNPJ">
+      </div>
+      <div class="field" style="min-width:200px;margin:0">
+        <label>Tipo</label>
+        <select name="tipo" class="form-select">
+          <option value="">Todos</option>
+          {% for val, lbl in tipos %}
+            <option value="{{ val }}" {% if val == tipo %}selected{% endif %}>{{ lbl }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <button class="btn primary">Filtrar</button>
+      <a href="{% url 'cotacao_lista' %}" class="btn outline">Limpar</a>
+    </form>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-b" style="padding:0">
+    <table class="tbl">
+      <thead><tr>
+        <th>#</th><th>Fornecedor</th><th>Filial</th><th>Tipo</th><th>Regime</th>
+        <th class="num">Valor líquido</th><th>Recebida</th><th>Downloads</th><th></th>
+      </tr></thead>
+      <tbody>
+        {% for c in cotacoes %}
+        <tr>
+          <td>{{ c.id }}</td>
+          <td><strong>{{ c.razao_social }}</strong><br><span class="muted">{{ c.cnpj_formatado }}</span></td>
+          <td>{{ c.filial.planta }}</td>
+          <td><span class="badge info">{{ c.tipo_fornecimento }}</span></td>
+          <td>{{ c.regime }}</td>
+          <td class="num">R$ {{ c.valor_liquido|floatformat:2 }}</td>
+          <td>{{ c.criado_em|date:"d/m/Y H:i" }}</td>
+          <td style="white-space:nowrap">
+            <a class="btn sm ghost" href="{% url 'cotacao_export' c.pk 'json' %}">JSON</a>
+            <a class="btn sm ghost" href="{% url 'cotacao_export' c.pk 'excel' %}">Excel</a>
+            <a class="btn sm ghost" href="{% url 'cotacao_export' c.pk 'pdf' %}">PDF</a>
+          </td>
+          <td><a href="{% url 'cotacao_detalhe' c.pk %}" class="btn sm outline">Ver</a></td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="9" style="padding:30px;text-align:center" class="muted">
+          Nenhuma cotação encontrada.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

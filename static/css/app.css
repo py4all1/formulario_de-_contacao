@@ -1,0 +1,162 @@
+:root{
+  --brand:#1f4e78;
+  --brand-2:#2e6fb0;
+  --brand-light:#eef4fb;
+  --ink:#1c2733;
+  --muted:#6b7785;
+  --line:#e4e9f0;
+  --bg:#f4f6fb;
+  --ok:#1f8a52;
+  --warn:#b8860b;
+  --danger:#c0392b;
+  --radius:14px;
+  --shadow:0 1px 3px rgba(20,40,70,.07),0 8px 24px rgba(20,40,70,.06);
+  --field:#fffce8; /* amarelo claro = preenchimento manual (igual macro) */
+}
+*{box-sizing:border-box}
+body{
+  margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  color:var(--ink);background:var(--bg);font-size:15px;line-height:1.5;
+}
+a{color:var(--brand-2);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ---------- Layout proprietário ---------- */
+.app{display:flex;min-height:100vh}
+.sidebar{
+  width:248px;background:linear-gradient(180deg,#1b4068,#1f4e78);
+  color:#dce6f2;padding:22px 16px;position:sticky;top:0;height:100vh;flex-shrink:0;
+}
+.sidebar .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:#fff;
+  font-size:18px;margin-bottom:26px;letter-spacing:.3px}
+.sidebar .brand .logo{width:34px;height:34px;border-radius:9px;background:#fff;
+  color:var(--brand);display:grid;place-items:center;font-weight:800}
+.sidebar nav a{display:flex;align-items:center;gap:10px;color:#cdddee;padding:10px 12px;
+  border-radius:10px;margin-bottom:4px;font-weight:500}
+.sidebar nav a:hover{background:rgba(255,255,255,.08);text-decoration:none;color:#fff}
+.sidebar nav a.active{background:#fff;color:var(--brand);font-weight:600}
+.sidebar .foot{position:absolute;bottom:18px;left:16px;right:16px;font-size:12.5px;
+  color:#9fb6cf}
+.sidebar .foot a{color:#cfe0f1}
+.sidebar .foot .logout-link{background:none;border:none;color:#cfe0f1;cursor:pointer;
+  padding:0;font:inherit;text-decoration:underline}
+.sidebar .foot .logout-link:hover{color:#fff}
+
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{background:#fff;border-bottom:1px solid var(--line);padding:14px 28px;
+  display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:5}
+.topbar h1{font-size:20px;margin:0}
+.content{padding:26px 28px;max-width:1180px;width:100%}
+
+/* ---------- Cards / componentes ---------- */
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow)}
+.card .card-h{padding:16px 20px;border-bottom:1px solid var(--line);font-weight:600;
+  display:flex;align-items:center;gap:10px}
+.card .card-b{padding:20px}
+
+.grid{display:grid;gap:18px}
+.grid.cols-4{grid-template-columns:repeat(4,1fr)}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.grid.cols-2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.grid.cols-4,.grid.cols-3,.grid.cols-2{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.grid.cols-4,.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}}
+
+.stat{padding:18px 20px}
+.stat .label{color:var(--muted);font-size:13px;font-weight:600;text-transform:uppercase;
+  letter-spacing:.4px}
+.stat .value{font-size:30px;font-weight:700;margin-top:6px;color:var(--brand)}
+.stat .sub{color:var(--muted);font-size:13px;margin-top:2px}
+
+/* ---------- Tabelas ---------- */
+table.tbl{width:100%;border-collapse:collapse;font-size:14px}
+table.tbl th{background:var(--brand-light);color:#274b6d;text-align:left;
+  padding:11px 12px;font-weight:600;border-bottom:1px solid var(--line);white-space:nowrap}
+table.tbl td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+table.tbl tr:hover td{background:#fafcff}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+
+/* ---------- Badges / pills ---------- */
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12.5px;
+  font-weight:600}
+.badge.ok{background:#e3f5ea;color:var(--ok)}
+.badge.pend{background:#fdf3dd;color:var(--warn)}
+.badge.info{background:var(--brand-light);color:var(--brand)}
+.badge.serv{background:#e8f0fe;color:#2456b8}
+.badge.merc{background:#fbe9ef;color:#a8327a}
+
+/* ---------- Botões ---------- */
+.btn{display:inline-flex;align-items:center;gap:7px;border:1px solid transparent;
+  border-radius:10px;padding:9px 16px;font-weight:600;font-size:14px;cursor:pointer;
+  background:#fff;color:var(--ink);transition:.15s}
+.btn:hover{text-decoration:none;filter:brightness(.98)}
+.btn.primary{background:var(--brand);color:#fff}
+.btn.primary:hover{background:#1a4368}
+.btn.outline{border-color:var(--line);background:#fff}
+.btn.outline:hover{border-color:var(--brand-2);color:var(--brand)}
+.btn.ghost{background:transparent}
+.btn.sm{padding:6px 11px;font-size:13px}
+.btn.danger{background:var(--danger);color:#fff}
+
+/* ---------- Forms ---------- */
+.form-control,.form-select{width:100%;padding:10px 12px;border:1px solid #cdd6e2;
+  border-radius:10px;font-size:14px;background:#fff;color:var(--ink)}
+.form-control:focus,.form-select:focus{outline:none;border-color:var(--brand-2);
+  box-shadow:0 0 0 3px rgba(46,111,176,.15)}
+.form-control[readonly]{background:#f0f2f5;color:#566;cursor:not-allowed}
+.form-control.locked{background:#eef0f3;color:#9aa5b1;border-style:dashed;cursor:not-allowed}
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:600;font-size:13.5px;margin-bottom:5px;color:#33414f}
+.field .req{color:var(--danger)}
+.field.manual .form-control,.field.manual .form-select{background:var(--field)}
+.help{font-size:12.5px;color:var(--muted);margin-top:4px}
+.errorlist{color:var(--danger);font-size:13px;margin:4px 0 0;padding-left:18px}
+
+/* ---------- Alerts ---------- */
+.alert{padding:12px 16px;border-radius:10px;margin-bottom:14px;font-size:14px;
+  border:1px solid transparent}
+.alert.success{background:#e3f5ea;border-color:#bfe6cd;color:#176b41}
+.alert.info{background:var(--brand-light);border-color:#cfe0f1;color:#1d4e77}
+.alert.warning{background:#fdf3dd;border-color:#f1dca8;color:#8a6400}
+.alert.danger{background:#fdecea;border-color:#f5c6c0;color:#9b2c1f}
+
+/* ---------- Página pública ---------- */
+.public{max-width:1080px;margin:0 auto;padding:0 18px 60px}
+.public-hero{background:linear-gradient(120deg,#1f4e78,#2e6fb0);color:#fff;
+  border-radius:0 0 28px 28px;padding:30px 0 70px;margin-bottom:-50px}
+.public-hero .inner{max-width:1080px;margin:0 auto;padding:0 18px;display:flex;
+  align-items:center;gap:14px}
+.public-hero .logo{width:46px;height:46px;border-radius:12px;background:#fff;color:var(--brand);
+  display:grid;place-items:center;font-weight:800;font-size:20px}
+.public-hero h1{margin:0;font-size:22px}
+.public-hero p{margin:2px 0 0;color:#cfe0f1;font-size:14px}
+
+.section{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);margin-bottom:20px;overflow:hidden}
+.section > h2{margin:0;padding:16px 22px;background:var(--brand);color:#fff;font-size:16px;
+  display:flex;align-items:center;gap:10px}
+.section > h2 .step{width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.2);
+  display:grid;place-items:center;font-size:14px}
+.section .body{padding:22px}
+.section.collapsed .body{display:none}
+
+.item-card{border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px;
+  background:#fcfdff;position:relative}
+.item-card .rm{position:absolute;top:10px;right:10px}
+.item-row{display:grid;gap:12px}
+.totais-line{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px dashed var(--line)}
+.totais-line.big{font-size:18px;font-weight:700;color:var(--brand);border-bottom:none;
+  border-top:2px solid var(--brand);margin-top:6px;padding-top:12px}
+
+.sticky-resumo{position:sticky;top:18px}
+.tag-tipo{display:flex;gap:10px;flex-wrap:wrap}
+.tag-tipo .opt{flex:1;min-width:150px;border:2px solid var(--line);border-radius:12px;
+  padding:14px;cursor:pointer;text-align:center;font-weight:600;transition:.15s}
+.tag-tipo .opt:hover{border-color:var(--brand-2)}
+.tag-tipo .opt.sel{border-color:var(--brand);background:var(--brand-light);color:var(--brand)}
+
+.center-box{max-width:440px;margin:8vh auto;padding:0 18px}
+.muted{color:var(--muted)}
+.hidden{display:none!important}
+code.token{background:#f0f2f5;padding:3px 7px;border-radius:6px;font-size:13px}
+.copybtn{cursor:pointer}

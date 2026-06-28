@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block title %}Cotação #{{ cotacao.id }} — WeFix{% endblock %}
+{% block heading %}Cotação #{{ cotacao.id }}{% endblock %}
+{% block topbar_actions %}
+  <a class="btn outline" href="{% url 'cotacao_export' cotacao.pk 'json' %}">⬇ JSON</a>
+  <a class="btn outline" href="{% url 'cotacao_export' cotacao.pk 'excel' %}">⬇ Excel</a>
+  <a class="btn primary" href="{% url 'cotacao_export' cotacao.pk 'pdf' %}">⬇ PDF</a>
+{% endblock %}
+
+{% block content %}
+<a href="{% url 'cotacao_lista' %}" class="muted">← Voltar à lista</a>
+
+<div class="grid cols-2" style="margin:14px 0 18px">
+  <div class="card">
+    <div class="card-h">🏭 Dados da Electrolux</div>
+    <div class="card-b">
+      <p><strong>Filial:</strong> {{ cotacao.filial.planta }}</p>
+      <p><strong>CNPJ filial:</strong> {{ cotacao.filial.cnpj_formatado }}</p>
+      <p><strong>Local:</strong> {{ cotacao.filial.municipio }}/{{ cotacao.filial.uf }} — CEP {{ cotacao.filial.cep }}</p>
+      <p><strong>Endereço:</strong> {{ cotacao.filial.endereco }}</p>
+      <p><strong>Tipo de fornecimento:</strong> <span class="badge info">{{ cotacao.tipo_fornecimento }}</span></p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-h">🏢 Dados do Fornecedor</div>
+    <div class="card-b">
+      <p><strong>{{ cotacao.razao_social }}</strong> {% if cotacao.nome_fantasia %}({{ cotacao.nome_fantasia }}){% endif %}</p>
+      <p><strong>CNPJ:</strong> {{ cotacao.cnpj_formatado }} &nbsp;·&nbsp; <strong>Regime:</strong> {{ cotacao.regime }}</p>
+      <p><strong>Endereço:</strong> {{ cotacao.endereco }}, {{ cotacao.bairro }} — {{ cotacao.cidade }}/{{ cotacao.estado }} — CEP {{ cotacao.cep }}</p>
+      <p><strong>Contato:</strong> {{ cotacao.email }} · {{ cotacao.telefone }}</p>
+      <p><strong>Proposta nº:</strong> {{ cotacao.numero_proposta|default:"—" }} ·
+         <strong>Frete:</strong> {{ cotacao.frete|default:"—" }} ·
+         <strong>Pagamento:</strong> {{ cotacao.prazo_pagamento|default:"—" }}</p>
+    </div>
+  </div>
+</div>
+
+{% if cotacao.servicos.all %}
+<div class="card" style="margin-bottom:18px">
+  <div class="card-h">🧾 Serviços</div>
+  <div class="card-b" style="padding:0;overflow-x:auto">
+    <table class="tbl">
+      <thead><tr>
+        <th>Valor</th><th>Código</th><th>Descrição</th><th class="num">% ISS</th>
+        <th class="num">% INSS</th><th class="num">% CSRF</th><th class="num">% IRRF</th>
+        <th class="num">Total retido</th><th>SAP</th><th class="num">Líquido</th>
+      </tr></thead>
+      <tbody>
+        {% for i in cotacao.servicos.all %}
+        <tr>
+          <td class="num">R$ {{ i.valor_servico|floatformat:2 }}</td>
+          <td>{{ i.codigo_servico }}</td>
+          <td>{{ i.descricao|truncatechars:60 }}</td>
+          <td class="num">{{ i.perc_iss }}</td>
+          <td class="num">{{ i.perc_inss }}</td>
+          <td class="num">{{ i.perc_csrf }}</td>
+          <td class="num">{{ i.perc_irrf }}</td>
+          <td class="num">R$ {{ i.total_retido|floatformat:2 }}</td>
+          <td>{{ i.codigo_sap|default:"—" }}</td>
+          <td class="num"><strong>R$ {{ i.valor_liquido|floatformat:2 }}</strong></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+
+{% if cotacao.mercadorias.all %}
+<div class="card" style="margin-bottom:18px">
+  <div class="card-h">📦 Mercadorias</div>
+  <div class="card-b" style="padding:0;overflow-x:auto">
+    <table class="tbl">
+      <thead><tr>
+        <th>Item</th><th class="num">Qtd</th><th>Un</th><th class="num">Vlr unit</th>
+        <th>CFOP</th><th>NCM</th><th>Categoria</th><th class="num">IPI</th>
+        <th class="num">Base ICMS</th><th class="num">ICMS</th><th class="num">ST</th>
+        <th class="num">Total</th>
+      </tr></thead>
+      <tbody>
+        {% for i in cotacao.mercadorias.all %}
+        <tr>
+          <td>{{ i.item }}</td>
+          <td class="num">{{ i.quantidade }}</td>
+          <td>{{ i.unidade }}</td>
+          <td class="num">R$ {{ i.valor_unitario|floatformat:2 }}</td>
+          <td>{{ i.cfop }}</td>
+          <td>{{ i.ncm }}</td>
+          <td>{{ i.categoria }}</td>
+          <td class="num">R$ {{ i.valor_ipi|floatformat:2 }}</td>
+          <td class="num">R$ {{ i.base_icms|floatformat:2 }}</td>
+          <td class="num">R$ {{ i.valor_icms|floatformat:2 }}</td>
+          <td class="num">R$ {{ i.icms_st|floatformat:2 }}</td>
+          <td class="num"><strong>R$ {{ i.valor_total|floatformat:2 }}</strong></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+
+<div class="card" style="max-width:480px">
+  <div class="card-h">💰 Totais</div>
+  <div class="card-b">
+    <div class="totais-line"><span>Total serviço (líquido)</span><span>R$ {{ cotacao.total_servico|floatformat:2 }}</span></div>
+    <div class="totais-line"><span>Total retido</span><span>R$ {{ cotacao.total_retido|floatformat:2 }}</span></div>
+    <div class="totais-line"><span>Total material</span><span>R$ {{ cotacao.total_material|floatformat:2 }}</span></div>
+    <div class="totais-line"><span>Total IPI</span><span>R$ {{ cotacao.total_ipi|floatformat:2 }}</span></div>
+    <div class="totais-line"><span>Total ICMS</span><span>R$ {{ cotacao.total_icms|floatformat:2 }}</span></div>
+    <div class="totais-line big"><span>Valor líquido a receber</span><span>R$ {{ cotacao.valor_liquido|floatformat:2 }}</span></div>
+  </div>
+</div>
+
+<div class="card" style="max-width:480px;margin-top:18px">
+  <div class="card-h">📝 Aceite dos termos</div>
+  <div class="card-b">
+    {% if cotacao.aceite_termos %}
+      <p style="margin:0"><span class="badge ok">Aceito</span></p>
+      <p class="muted" style="margin:8px 0 0">Em {{ cotacao.aceite_em|date:"d/m/Y H:i" }}{% if cotacao.aceite_ip %} · IP {{ cotacao.aceite_ip }}{% endif %}</p>
+    {% else %}
+      <span class="badge pend">Não registrado</span>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Redefinir senha — WeFix{% endblock %}
+{% block heading %}Redefinir senha{% endblock %}
+
+{% block content %}
+<a href="{% url 'usuario_lista' %}" class="muted">← Voltar aos usuários</a>
+<div class="card" style="max-width:460px;margin-top:14px">
+  <div class="card-h">🔑 Nova senha para “{{ alvo.username }}”</div>
+  <div class="card-b">
+    <form method="post">
+      {% csrf_token %}
+      <div class="field"><label>Nova senha</label>{{ form.password }}</div>
+      <div class="field"><label>Confirmar nova senha</label>{{ form.password2 }}</div>
+      {% if form.errors %}<div class="alert danger">{{ form.non_field_errors }}{{ form.password.errors }}</div>{% endif %}
+      <button class="btn primary">Salvar nova senha</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acesso suspenso</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<div class="center-box" style="text-align:center">
+  <div style="font-size:64px">🔒</div>
+  <h1 style="color:var(--brand)">Acesso temporariamente suspenso</h1>
+  <p class="muted">A licença de uso do sistema está vencida{% if licenca %} desde {{ licenca.data_vencimento|date:"d/m/Y" }}{% endif %}.
+     Entre em contato com o fornecedor do sistema para regularizar o contrato e reativar o acesso.</p>
+  <div class="card" style="margin-top:18px">
+    <div class="card-b">
+      <p style="margin:0">Após a renovação, o acesso é restabelecido automaticamente.</p>
+    </div>
+  </div>
+  <form method="post" action="{% url 'logout' %}" style="margin-top:18px">
+    {% csrf_token %}
+    <button type="submit" class="btn outline">Sair</button>
+  </form>
+</div>
+</body>
+</html>

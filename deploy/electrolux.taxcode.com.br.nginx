@@ -1,0 +1,46 @@
+# =============================================================================
+# Nginx server block - app Electrolux
+# Destino na VPS: /etc/nginx/sites-available/electrolux.taxcode.com.br
+# Depois: ln -s para /etc/nginx/sites-enabled/ , nginx -t , systemctl reload nginx
+#
+# Este arquivo NAO toca nas outras 3 aplicacoes: o roteamento e feito por
+# server_name. So requisicoes para electrolux.taxcode.com.br caem aqui.
+#
+# OBS: o bloco HTTPS (443) e o redirect 80->443 sao adicionados
+# automaticamente pelo Certbot na etapa de SSL. Comece com este HTTP simples.
+# =============================================================================
+server {
+    listen 80;
+    listen [::]:80;
+    server_name electrolux.taxcode.com.br;
+
+    # Tamanho maximo de upload (planilhas/anexos do formulario)
+    client_max_body_size 25M;
+
+    access_log /var/log/nginx/electrolux.access.log;
+    error_log  /var/log/nginx/electrolux.error.log;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+
+    # Arquivos estaticos coletados (collectstatic -> STATIC_ROOT)
+    location /static/ {
+        alias /var/www/electrolux/staticfiles/;
+        expires 30d;
+        access_log off;
+    }
+
+    # Uploads do usuario (MEDIA), caso o app passe a gravar arquivos
+    location /media/ {
+        alias /var/www/electrolux/media/;
+    }
+
+    # Aplicacao Django via Gunicorn (socket unix dedicado)
+    location / {
+        proxy_pass http://unix:/run/electrolux/gunicorn.sock;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_redirect off;
+    }
+}

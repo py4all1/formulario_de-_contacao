@@ -1,0 +1,3878 @@
+{
+ "filiais": [
+  {
+   "empresa": "BR10",
+   "cia": "0033",
+   "planta": "Top RJ",
+   "municipio": "Rio de Janeiro",
+   "uf": "RJ",
+   "cnpj": "76487032003302",
+   "endereco": "AV AYRTON SENNA 4701",
+   "cep": "22775-004"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0050",
+   "planta": "Top Salvador",
+   "municipio": "Salvador",
+   "uf": "BA",
+   "cnpj": "76487032005003",
+   "endereco": "Rua Edistio Ponde 200",
+   "cep": "41770-395"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0063",
+   "planta": "Outlet Belo Horizonte",
+   "municipio": "Belo Horizonte",
+   "uf": "MG",
+   "cnpj": "76487032006328",
+   "endereco": "AV PASTOR ANSELMO SILVESTRE 1495",
+   "cep": "31170-678"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0060",
+   "planta": "Outlet 3 (Porto Belo)",
+   "municipio": "Porto Belo",
+   "uf": "SC",
+   "cnpj": "76487032006085",
+   "endereco": "ROD BR 101 ROD GOV MARIO COVAS SN",
+   "cep": "88210-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0064",
+   "planta": "Outlet Feira de Santana",
+   "municipio": "Feira de Santana",
+   "uf": "BA",
+   "cnpj": "76487032006409",
+   "endereco": "AV FRANCISCO FRAGA MAIA 4680",
+   "cep": "44056-232"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0061",
+   "planta": "Outlet 4 (Florianopolis)",
+   "municipio": "Florianópolis",
+   "uf": "SC",
+   "cnpj": "76487032006166",
+   "endereco": "ROD JOSE CARLOS DAUX SC 401 4850",
+   "cep": "88032-005"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0001",
+   "planta": "Guabirotuba",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032000125",
+   "endereco": "Rua Ministro Gabriel Passos 360",
+   "cep": "81520-900"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0019",
+   "planta": "Disc SJP",
+   "municipio": "São José dos Pinhais",
+   "uf": "PR",
+   "cnpj": "76487032001954",
+   "endereco": "Rua Vanderlei Moreno 10800",
+   "cep": "83070-245"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0021",
+   "planta": "CIC",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032002179",
+   "endereco": "Rua Senador Accioly Filho 1321",
+   "cep": "81310-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0035",
+   "planta": "Gralha Azul",
+   "municipio": "São José dos Pinhais",
+   "uf": "PR",
+   "cnpj": "76487032003906",
+   "endereco": "RUA VEREADOR ANGELO BURBELLO 555",
+   "cep": "81945-010"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0039",
+   "planta": "CIC",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032003906",
+   "endereco": "RUA VEREADOR ANGELO BURBELLO 555",
+   "cep": "81945-010"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0040",
+   "planta": "CIC",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032004031",
+   "endereco": "R JOAO LUNARDELLI 2205",
+   "cep": "81460-100"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0042",
+   "planta": "CIC",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032004201",
+   "endereco": "R ROBERTO OZORIO DE ALMEIDA 1010",
+   "cep": "81460-110"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0062",
+   "planta": "Reengenharia SJP",
+   "municipio": "São José dos Pinhais",
+   "uf": "PR",
+   "cnpj": "76487032006247",
+   "endereco": "R VANDERLEI MORENO 10800",
+   "cep": "83070-245"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0066",
+   "planta": "COP - Escritorio",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032006670",
+   "endereco": "R JOAO MARCHESINI, 139",
+   "cep": "80215-432"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0067",
+   "planta": "OUTLET -  Campo Largo",
+   "municipio": "Campo Largo",
+   "uf": "PR",
+   "cnpj": "76487032006751",
+   "endereco": "ROD BR 277 PONTA GROSSA CURITIBA SN",
+   "cep": "83604-175"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0052",
+   "planta": "Outlet 1 - Barigui",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032005275",
+   "endereco": "R GENERAL MARIO TOURINHO 2350",
+   "cep": "80740-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0053",
+   "planta": "Outlet 2 - Cajuru",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "76487032005356",
+   "endereco": "R VICENTE DE CARVALHO 113",
+   "cep": "82940-370"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0065",
+   "planta": "Outlet - Distrito Federal",
+   "municipio": "Brasilia",
+   "uf": "DF",
+   "cnpj": "76487032006590",
+   "endereco": "Q QS 5 SN",
+   "cep": "71955-000"
+  },
+  {
+   "empresa": "BR12",
+   "cia": "0001",
+   "planta": "Loja - curitiba",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "13986197000121",
+   "endereco": "RUA JOAO LUNARDELLI 2205",
+   "cep": "81460-100"
+  },
+  {
+   "empresa": "BR12",
+   "cia": "0005",
+   "planta": "Loja (CIC)",
+   "municipio": "Curitiba",
+   "uf": "PR",
+   "cnpj": "13986197000555",
+   "endereco": "RUA VEREADOR ANGELO BURBELLO 555",
+   "cep": "81945-010"
+  },
+  {
+   "empresa": "BR12",
+   "cia": "0003",
+   "planta": "Loja  -Alhandra",
+   "municipio": "Alhandra",
+   "uf": "PB",
+   "cnpj": "13986197000393",
+   "endereco": "R MANOEL CESAR DE MELO SN",
+   "cep": "58320-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0026",
+   "planta": "TOP SP ",
+   "municipio": "São Paulo",
+   "uf": "SP",
+   "cnpj": "76487032002683",
+   "endereco": "Rua Professor Serafim Orlan 146/148",
+   "cep": "04115-090"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0027",
+   "planta": "Top SP - Verbo Divino",
+   "municipio": "São Paulo",
+   "uf": "SP",
+   "cnpj": "76487032002764",
+   "endereco": "AV DR CHUCRI ZAIDAN 296",
+   "cep": "04583-110"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0045",
+   "planta": "TOP AM",
+   "municipio": "Manaus",
+   "uf": "AM",
+   "cnpj": "76487032004546",
+   "endereco": "AV DJALMA BATISTA 1071",
+   "cep": "69053-355"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0002",
+   "planta": "Fábrica - São Carlos",
+   "municipio": "São Carlos",
+   "uf": "SP",
+   "cnpj": "76487032000206",
+   "endereco": "Av. José Pereira Lopes 250",
+   "cep": "13574-380"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0011",
+   "planta": "Fábrica - São Carlos",
+   "municipio": "Vila Izabel",
+   "uf": "SP",
+   "cnpj": "76487032001105",
+   "endereco": "Rua Coronel José Augusto de Oli 476",
+   "cep": "13570-820"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0043",
+   "planta": "Armazém - São Carlos",
+   "municipio": "Agua Vermelha",
+   "uf": "SP",
+   "cnpj": "76487032004384",
+   "endereco": "RODOVIA SP 318 KM 45 SN",
+   "cep": "13578-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0044",
+   "planta": "Fábrica - São Carlos",
+   "municipio": "CRP São Carlos",
+   "uf": "SP",
+   "cnpj": "76487032004465",
+   "endereco": "Av. José Pereira Lopes 800",
+   "cep": "13574-900"
+  },
+  {
+   "empresa": "BR12",
+   "cia": "0002",
+   "planta": "Loja - São Carlos",
+   "municipio": "Loja Electrolux",
+   "uf": "SP",
+   "cnpj": "13986197000202",
+   "endereco": "ROD ENG THALES DE LORENA PEIXOTO SN",
+   "cep": "13578-000"
+  },
+  {
+   "empresa": "BR10",
+   "cia": null,
+   "planta": "Outlet - São Roque",
+   "municipio": "São Paulo",
+   "uf": "SP",
+   "cnpj": "76487032006913",
+   "endereco": "R RAFAEL DIAS COSTA 140",
+   "cep": "18132-852"
+  },
+  {
+   "empresa": "BR10",
+   "cia": "0068",
+   "planta": "Outlet - Alhandra",
+   "municipio": "Alhandra",
+   "uf": "PB",
+   "cnpj": "13986197000393",
+   "endereco": "R MANOEL CESAR DE MELO SN",
+   "cep": "58320-000"
+  },
+  {
+   "empresa": "PBR02",
+   "cia": null,
+   "planta": "ADM CTBA",
+   "municipio": "CURITIBA",
+   "uf": "PR",
+   "cnpj": "76487032000559",
+   "endereco": "Rua Ministro Gabriel Passos 175",
+   "cep": "81520-900"
+  },
+  {
+   "empresa": "PBR03",
+   "cia": null,
+   "planta": "CASA ELECTROLUX",
+   "municipio": "São Paulo",
+   "uf": "SP",
+   "cnpj": "76487032004627",
+   "endereco": "Rua Colômbia 157",
+   "cep": "01438-000"
+  },
+  {
+   "empresa": "PBR04",
+   "cia": null,
+   "planta": "IMPORTAÇÃO ES",
+   "municipio": "Serra",
+   "uf": "ES",
+   "cnpj": "76487032003493",
+   "endereco": "Rodovia BR 101 KM 271 s/n",
+   "cep": "29160-970"
+  },
+  {
+   "empresa": "PBR06",
+   "cia": null,
+   "planta": "LAPA - MA",
+   "municipio": "Lapa",
+   "uf": "PR",
+   "cnpj": "76487032004970",
+   "endereco": "Rua Barão do Rio Branco 2184",
+   "cep": "83750-000"
+  },
+  {
+   "empresa": "PBR24",
+   "cia": null,
+   "planta": "Fábrica - São José dos Pinhais",
+   "municipio": "SAO JOSE DOS PINHAIS",
+   "uf": "PR",
+   "cnpj": "76487032003574",
+   "endereco": "RUA DURVAL MOLETTA 2160",
+   "cep": "83149-899"
+  },
+  {
+   "empresa": "PBR67",
+   "cia": null,
+   "planta": "",
+   "municipio": "ALHANDRA",
+   "uf": "PB",
+   "cnpj": "76487032006832",
+   "endereco": "R MANOEL CESAR DE MELO BR101 108",
+   "cep": "58320-000"
+  },
+  {
+   "empresa": "PBR81",
+   "cia": null,
+   "planta": "Fábrica - Manaus",
+   "municipio": "MANAUS",
+   "uf": "AM",
+   "cnpj": "76487032005437",
+   "endereco": "R JUTAI 275",
+   "cep": "69075-130"
+  },
+  {
+   "empresa": "PBR83",
+   "cia": null,
+   "planta": "Armazém - Manaus",
+   "municipio": "MANAUS",
+   "uf": "AM",
+   "cnpj": "76487032005607",
+   "endereco": "AV DOS OITIS 1720",
+   "cep": "69075-842"
+  }
+ ],
+ "atividades": [
+  {
+   "codigo": "01.01",
+   "atividade": "Análise e desenvolvimento de sistemas",
+   "descricao": "Análise e desenvolvimento de sistemas."
+  },
+  {
+   "codigo": "01.02",
+   "atividade": "Programação",
+   "descricao": "Programação."
+  },
+  {
+   "codigo": "01.03",
+   "atividade": "Processamento, armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres. (Redação dada pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Processamento, armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres. (Redação dada pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "01.04",
+   "atividade": "Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres. (Redação dada pela Lei Complementar nº 157",
+   "descricao": "Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres. (Redação dada pela Lei Complementar nº 157, d"
+  },
+  {
+   "codigo": "01.05",
+   "atividade": "Licenciamento ou cessão de direito de uso de programas de computação.",
+   "descricao": "Licenciamento ou cessão de direito de uso de programas de computação."
+  },
+  {
+   "codigo": "01.06",
+   "atividade": "Assessoria e consultoria em informática.",
+   "descricao": "Assessoria e consultoria em informática."
+  },
+  {
+   "codigo": "01.07",
+   "atividade": "Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados",
+   "descricao": "Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados."
+  },
+  {
+   "codigo": "01.08",
+   "atividade": "Planejamento, confecção, manutenção e atualização de páginas eletrônicas",
+   "descricao": "Planejamento, confecção, manutenção e atualização de páginas eletrônicas."
+  },
+  {
+   "codigo": "01.09",
+   "atividade": "Disponibilização, sem cessão definitiva, de conteúdos de áudio, vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado",
+   "descricao": "Disponibilização, sem cessão definitiva, de conteúdos de áudio, vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, d"
+  },
+  {
+   "codigo": "02.01",
+   "atividade": "Serviços de pesquisas e desenvolvimento de qualquer natureza",
+   "descricao": "Serviços de pesquisas e desenvolvimento de qualquer natureza."
+  },
+  {
+   "codigo": "03.02",
+   "atividade": "Cessão de direito de uso de marcas e de sinais de propaganda",
+   "descricao": "Cessão de direito de uso de marcas e de sinais de propaganda."
+  },
+  {
+   "codigo": "03.03",
+   "atividade": "Exploração de salões de festas, centro de convenções, escritórios virtuais, stands, quadras esportivas, estádios, ginásios, auditórios, casas de espetáculos,",
+   "descricao": "Exploração de salões de festas, centro de convenções, escritórios virtuais, stands, quadras esportivas, estádios, ginásios, auditórios, casas de espetáculos, parques de diversões, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza."
+  },
+  {
+   "codigo": "03.04",
+   "atividade": "Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de",
+   "descricao": "Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza."
+  },
+  {
+   "codigo": "03.05",
+   "atividade": "Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.",
+   "descricao": "Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário."
+  },
+  {
+   "codigo": "04.01",
+   "atividade": "Medicina e biomedicina.",
+   "descricao": "Medicina e biomedicina."
+  },
+  {
+   "codigo": "04.02",
+   "atividade": "Análises clínicas, patologia, eletricidade médica, radioterapia, quimioterapia, ultrasonografia, ressonância magnética, radiologia, tomografia e congêneres.",
+   "descricao": "Análises clínicas, patologia, eletricidade médica, radioterapia, quimioterapia, ultrasonografia, ressonância magnética, radiologia, tomografia e congêneres."
+  },
+  {
+   "codigo": "04.03",
+   "atividade": "Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de saúde, prontossocorros, ambulatórios e congêneres.",
+   "descricao": "Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de saúde, prontossocorros, ambulatórios e congêneres."
+  },
+  {
+   "codigo": "04.04",
+   "atividade": "Instrumentação cirúrgica.",
+   "descricao": "Instrumentação cirúrgica."
+  },
+  {
+   "codigo": "04.05",
+   "atividade": "Acupuntura.",
+   "descricao": "Acupuntura."
+  },
+  {
+   "codigo": "04.06",
+   "atividade": "Enfermagem, inclusive serviços auxiliares.",
+   "descricao": "Enfermagem, inclusive serviços auxiliares."
+  },
+  {
+   "codigo": "04.07",
+   "atividade": "Serviços farmacêuticos.",
+   "descricao": "Serviços farmacêuticos."
+  },
+  {
+   "codigo": "04.08",
+   "atividade": "Terapia ocupacional, fisioterapia e fonoaudiologia.",
+   "descricao": "Terapia ocupacional, fisioterapia e fonoaudiologia."
+  },
+  {
+   "codigo": "04.09",
+   "atividade": "Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e mental.",
+   "descricao": "Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e mental."
+  },
+  {
+   "codigo": "04.10",
+   "atividade": "Nutrição.",
+   "descricao": "Nutrição."
+  },
+  {
+   "codigo": "04.11",
+   "atividade": "Obstetrícia.",
+   "descricao": "Obstetrícia."
+  },
+  {
+   "codigo": "04.12",
+   "atividade": "Odontologia.",
+   "descricao": "Odontologia."
+  },
+  {
+   "codigo": "04.13",
+   "atividade": "Ortóptica.",
+   "descricao": "Ortóptica."
+  },
+  {
+   "codigo": "04.14",
+   "atividade": "Próteses sob encomenda.",
+   "descricao": "Próteses sob encomenda."
+  },
+  {
+   "codigo": "04.15",
+   "atividade": "Psicanálise.",
+   "descricao": "Psicanálise."
+  },
+  {
+   "codigo": "04.16",
+   "atividade": "Psicologia.",
+   "descricao": "Psicologia."
+  },
+  {
+   "codigo": "04.17",
+   "atividade": "Casas de repouso e de recuperação, creches, asilos e congêneres.",
+   "descricao": "Casas de repouso e de recuperação, creches, asilos e congêneres."
+  },
+  {
+   "codigo": "04.18",
+   "atividade": "Inseminação artificial, fertilização in vitro e congêneres.",
+   "descricao": "Inseminação artificial, fertilização in vitro e congêneres."
+  },
+  {
+   "codigo": "04.19",
+   "atividade": "Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres.",
+   "descricao": "Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres."
+  },
+  {
+   "codigo": "04.20",
+   "atividade": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.",
+   "descricao": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie."
+  },
+  {
+   "codigo": "04.21",
+   "atividade": "Unidade de atendimento, assistência ou tratamento móvel e congêneres.",
+   "descricao": "Unidade de atendimento, assistência ou tratamento móvel e congêneres."
+  },
+  {
+   "codigo": "04.22",
+   "atividade": "Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres.",
+   "descricao": "Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres."
+  },
+  {
+   "codigo": "04.23",
+   "atividade": "Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário.",
+   "descricao": "Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário."
+  },
+  {
+   "codigo": "05.01",
+   "atividade": "Medicina veterinária e zootecnia.",
+   "descricao": "Medicina veterinária e zootecnia."
+  },
+  {
+   "codigo": "05.02",
+   "atividade": "Hospitais, clínicas, ambulatórios, prontossocorros e congêneres, na área veterinária.",
+   "descricao": "Hospitais, clínicas, ambulatórios, prontossocorros e congêneres, na área veterinária."
+  },
+  {
+   "codigo": "05.03",
+   "atividade": "Laboratórios de análise na área veterinária.",
+   "descricao": "Laboratórios de análise na área veterinária."
+  },
+  {
+   "codigo": "05.04",
+   "atividade": "Laboratórios de análise na área veterinária.",
+   "descricao": "Laboratórios de análise na área veterinária."
+  },
+  {
+   "codigo": "05.05",
+   "atividade": "Bancos de sangue e de órgãos e congêneres.",
+   "descricao": "Bancos de sangue e de órgãos e congêneres."
+  },
+  {
+   "codigo": "05.06",
+   "atividade": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.",
+   "descricao": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie."
+  },
+  {
+   "codigo": "05.07",
+   "atividade": "Unidade de atendimento, assistência ou tratamento móvel e congêneres.",
+   "descricao": "Unidade de atendimento, assistência ou tratamento móvel e congêneres."
+  },
+  {
+   "codigo": "05.08",
+   "atividade": "Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.",
+   "descricao": "Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres."
+  },
+  {
+   "codigo": "05.09",
+   "atividade": "Planos de atendimento e assistência médicoveterinária.",
+   "descricao": "Planos de atendimento e assistência médicoveterinária."
+  },
+  {
+   "codigo": "06.01",
+   "atividade": "Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.",
+   "descricao": "Barbearia, cabeleireiros, manicuros, pedicuros e congêneres."
+  },
+  {
+   "codigo": "06.02",
+   "atividade": "Esteticistas, tratamento de pele, depilação e congêneres.",
+   "descricao": "Esteticistas, tratamento de pele, depilação e congêneres."
+  },
+  {
+   "codigo": "06.03",
+   "atividade": "Banhos, duchas, sauna, massagens e congêneres.",
+   "descricao": "Banhos, duchas, sauna, massagens e congêneres."
+  },
+  {
+   "codigo": "06.04",
+   "atividade": "Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas.",
+   "descricao": "Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas."
+  },
+  {
+   "codigo": "06.05",
+   "atividade": "Centros de emagrecimento, spa e congêneres.",
+   "descricao": "Centros de emagrecimento, spa e congêneres."
+  },
+  {
+   "codigo": "06.06",
+   "atividade": "Aplicação de tatuagens, piercings e congêneres.  (Incluído pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Aplicação de tatuagens, piercings e congêneres.  (Incluído pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "07.01",
+   "atividade": "Engenharia, agronomia, agrimensura, arquitetura, geologia, urbanismo, paisagismo e congêneres.",
+   "descricao": "Engenharia, agronomia, agrimensura, arquitetura, geologia, urbanismo, paisagismo e congêneres."
+  },
+  {
+   "codigo": "07.02",
+   "atividade": "Execução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+   "descricao": "Execução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS)."
+  },
+  {
+   "codigo": "07.03",
+   "atividade": "Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia; elaboração de",
+   "descricao": "Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia; elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia."
+  },
+  {
+   "codigo": "07.04",
+   "atividade": "Demolição.",
+   "descricao": "Demolição."
+  },
+  {
+   "codigo": "07.05",
+   "atividade": "Reparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos",
+   "descricao": "Reparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS)."
+  },
+  {
+   "codigo": "07.06",
+   "atividade": "Colocação e instalação de tapetes, carpetes, assoalhos, cortinas, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material",
+   "descricao": "Colocação e instalação de tapetes, carpetes, assoalhos, cortinas, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço."
+  },
+  {
+   "codigo": "07.07",
+   "atividade": "Recuperação, raspagem, polimento e lustração de pisos e congêneres.",
+   "descricao": "Recuperação, raspagem, polimento e lustração de pisos e congêneres."
+  },
+  {
+   "codigo": "07.08",
+   "atividade": "Calafetação.",
+   "descricao": "Calafetação."
+  },
+  {
+   "codigo": "07.09",
+   "atividade": "Varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.",
+   "descricao": "Varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer."
+  },
+  {
+   "codigo": "07.10",
+   "atividade": "Limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres.",
+   "descricao": "Limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres."
+  },
+  {
+   "codigo": "07.11",
+   "atividade": "Decoração e jardinagem, inclusive corte e poda de árvores.",
+   "descricao": "Decoração e jardinagem, inclusive corte e poda de árvores."
+  },
+  {
+   "codigo": "07.12",
+   "atividade": "Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos.",
+   "descricao": "Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos."
+  },
+  {
+   "codigo": "07.13",
+   "atividade": "Dedetização, desinfecção, desinsetização, imunização, higienização, desratização, pulverização e congêneres.",
+   "descricao": "Dedetização, desinfecção, desinsetização, imunização, higienização, desratização, pulverização e congêneres."
+  },
+  {
+   "codigo": "07.16",
+   "atividade": "Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de flores",
+   "descricao": "Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de flore"
+  },
+  {
+   "codigo": "07.17",
+   "atividade": "Escoramento, contenção de encostas e serviços congêneres.",
+   "descricao": "Escoramento, contenção de encostas e serviços congêneres."
+  },
+  {
+   "codigo": "07.18",
+   "atividade": "Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres.",
+   "descricao": "Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres."
+  },
+  {
+   "codigo": "07.19",
+   "atividade": "Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo.",
+   "descricao": "Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo."
+  },
+  {
+   "codigo": "07.20",
+   "atividade": "Aerofotogrametria (inclusive interpretação), cartografia, mapeamento, levantamentos topográficos, batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres.",
+   "descricao": "Aerofotogrametria (inclusive interpretação), cartografia, mapeamento, levantamentos topográficos, batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres."
+  },
+  {
+   "codigo": "07.21",
+   "atividade": "Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais.",
+   "descricao": "Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais."
+  },
+  {
+   "codigo": "07.22",
+   "atividade": "Nucleação e bombardeamento de nuvens e congêneres.",
+   "descricao": "Nucleação e bombardeamento de nuvens e congêneres."
+  },
+  {
+   "codigo": "08.01",
+   "atividade": "Ensino regular préescolar, fundamental, médio e superior.",
+   "descricao": "Ensino regular préescolar, fundamental, médio e superior."
+  },
+  {
+   "codigo": "08.02",
+   "atividade": "Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.",
+   "descricao": "Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza."
+  },
+  {
+   "codigo": "09.01",
+   "atividade": "Hospedagem de qualquer natureza em hotéis, apartservice condominiais, flat, aparthotéis, hotéis residência, residenceservice, suite service, hotelaria marítima, motéis, pensões e congêneres; ocupação por temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+   "descricao": "Hospedagem de qualquer natureza em hotéis, apartservice condominiais, flat, aparthotéis, hotéis residência, residenceservice, suite service, hotelaria marítima, motéis, pensões e congêneres; ocupação por temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços)."
+  },
+  {
+   "codigo": "09.02",
+   "atividade": "Agenciamento, organização, promoção, intermediação e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.",
+   "descricao": "Agenciamento, organização, promoção, intermediação e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres."
+  },
+  {
+   "codigo": "09.03",
+   "atividade": "Guias de turismo.",
+   "descricao": "Guias de turismo."
+  },
+  {
+   "codigo": "10.01",
+   "atividade": "Agenciamento, corretagem ou intermediação de câmbio, de seguros, de cartões de crédito, de planos de saúde e de planos de previdência privada.",
+   "descricao": "Agenciamento, corretagem ou intermediação de câmbio, de seguros, de cartões de crédito, de planos de saúde e de planos de previdência privada."
+  },
+  {
+   "codigo": "10.02",
+   "atividade": "Agenciamento, corretagem ou intermediação de títulos em geral, valores mobiliários e contratos quaisquer.",
+   "descricao": "Agenciamento, corretagem ou intermediação de títulos em geral, valores mobiliários e contratos quaisquer."
+  },
+  {
+   "codigo": "10.03",
+   "atividade": "Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária.",
+   "descricao": "Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária."
+  },
+  {
+   "codigo": "10.04",
+   "atividade": "Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing), de franquia (franchising) e de faturização (factoring).",
+   "descricao": "Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing), de franquia (franchising) e de faturização (factoring)."
+  },
+  {
+   "codigo": "10.05",
+   "atividade": "Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, inclusive aqueles realizados no âmbito",
+   "descricao": "Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, inclusive aqueles realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios."
+  },
+  {
+   "codigo": "10.06",
+   "atividade": "Agenciamento marítimo.",
+   "descricao": "Agenciamento marítimo."
+  },
+  {
+   "codigo": "10.07",
+   "atividade": "Agenciamento de notícias.",
+   "descricao": "Agenciamento de notícias."
+  },
+  {
+   "codigo": "10.08",
+   "atividade": "Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios.",
+   "descricao": "Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios."
+  },
+  {
+   "codigo": "10.09",
+   "atividade": "Representação de qualquer natureza, inclusive comercial.",
+   "descricao": "Representação de qualquer natureza, inclusive comercial."
+  },
+  {
+   "codigo": "10.10",
+   "atividade": "Distribuição de bens de terceiros.",
+   "descricao": "Distribuição de bens de terceiros."
+  },
+  {
+   "codigo": "11.01",
+   "atividade": "Guarda e estacionamento de veículos terrestres automotores, de aeronaves e de embarcações.",
+   "descricao": "Guarda e estacionamento de veículos terrestres automotores, de aeronaves e de embarcações."
+  },
+  {
+   "codigo": "11.02",
+   "atividade": "Vigilância, segurança ou monitoramento de bens, pessoas e semoventes. (Redação dada pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Vigilância, segurança ou monitoramento de bens, pessoas e semoventes. (Redação dada pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "11.03",
+   "atividade": "Escolta, inclusive de veículos e cargas.",
+   "descricao": "Escolta, inclusive de veículos e cargas."
+  },
+  {
+   "codigo": "11.04",
+   "atividade": "Armazenamento, depósito, carga, descarga, arrumação e guarda de bens de qualquer espécie.",
+   "descricao": "Armazenamento, depósito, carga, descarga, arrumação e guarda de bens de qualquer espécie."
+  },
+  {
+   "codigo": "12.01",
+   "atividade": "Espetáculos teatrais.",
+   "descricao": "Espetáculos teatrais."
+  },
+  {
+   "codigo": "12.02",
+   "atividade": "Exibições cinematográficas.",
+   "descricao": "Exibições cinematográficas."
+  },
+  {
+   "codigo": "12.03",
+   "atividade": "Espetáculos circenses.",
+   "descricao": "Espetáculos circenses."
+  },
+  {
+   "codigo": "12.04",
+   "atividade": "Programas de auditório.",
+   "descricao": "Programas de auditório."
+  },
+  {
+   "codigo": "12.05",
+   "atividade": "Parques de diversões, centros de lazer e congêneres.",
+   "descricao": "Parques de diversões, centros de lazer e congêneres."
+  },
+  {
+   "codigo": "12.06",
+   "atividade": "Boates, taxidancing e congêneres.",
+   "descricao": "Boates, taxidancing e congêneres."
+  },
+  {
+   "codigo": "12.07",
+   "atividade": "Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres.",
+   "descricao": "Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres."
+  },
+  {
+   "codigo": "12.08",
+   "atividade": "Feiras, exposições, congressos e congêneres.",
+   "descricao": "Feiras, exposições, congressos e congêneres."
+  },
+  {
+   "codigo": "12.09",
+   "atividade": "Bilhares, boliches e diversões eletrônicas ou não.",
+   "descricao": "Bilhares, boliches e diversões eletrônicas ou não."
+  },
+  {
+   "codigo": "12.10",
+   "atividade": "Corridas e competições de animais.",
+   "descricao": "Corridas e competições de animais."
+  },
+  {
+   "codigo": "12.11",
+   "atividade": "Competições esportivas ou de destreza física ou intelectual, com ou sem a participação do espectador.",
+   "descricao": "Competições esportivas ou de destreza física ou intelectual, com ou sem a participação do espectador."
+  },
+  {
+   "codigo": "12.12",
+   "atividade": "Execução de música.",
+   "descricao": "Execução de música."
+  },
+  {
+   "codigo": "12.13",
+   "atividade": "Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais,",
+   "descricao": "Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais, festivais e congêneres."
+  },
+  {
+   "codigo": "12.14",
+   "atividade": "Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.",
+   "descricao": "Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo."
+  },
+  {
+   "codigo": "12.15",
+   "atividade": "Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres.",
+   "descricao": "Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres."
+  },
+  {
+   "codigo": "12.16",
+   "atividade": "Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres.",
+   "descricao": "Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres."
+  },
+  {
+   "codigo": "12.17",
+   "atividade": "Recreação e animação, inclusive em festas e eventos de qualquer natureza.",
+   "descricao": "Recreação e animação, inclusive em festas e eventos de qualquer natureza."
+  },
+  {
+   "codigo": "13.02",
+   "atividade": "Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres.",
+   "descricao": "Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres."
+  },
+  {
+   "codigo": "13.03",
+   "atividade": "Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres.",
+   "descricao": "Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres."
+  },
+  {
+   "codigo": "13.04",
+   "atividade": "Reprografia, microfilmagem e digitalização.",
+   "descricao": "Reprografia, microfilmagem e digitalização."
+  },
+  {
+   "codigo": "13.05",
+   "atividade": "Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer for",
+   "descricao": "Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer for"
+  },
+  {
+   "codigo": "14.01",
+   "atividade": "Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+   "descricao": "Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS)."
+  },
+  {
+   "codigo": "14.02",
+   "atividade": "Assistência técnica.",
+   "descricao": "Assistência técnica."
+  },
+  {
+   "codigo": "14.03",
+   "atividade": "Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+   "descricao": "Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS)."
+  },
+  {
+   "codigo": "14.04",
+   "atividade": "Recauchutagem ou regeneração de pneus.",
+   "descricao": "Recauchutagem ou regeneração de pneus."
+  },
+  {
+   "codigo": "14.05",
+   "atividade": "Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.  (Redação dada pela Lei",
+   "descricao": "Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.  (Redação dada pela Lei"
+  },
+  {
+   "codigo": "14.06",
+   "atividade": "Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por",
+   "descricao": "Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por ele fornecido."
+  },
+  {
+   "codigo": "14.07",
+   "atividade": "Colocação de molduras e congêneres.",
+   "descricao": "Colocação de molduras e congêneres."
+  },
+  {
+   "codigo": "14.08",
+   "atividade": "Encadernação, gravação e douração de livros, revistas e congêneres.",
+   "descricao": "Encadernação, gravação e douração de livros, revistas e congêneres."
+  },
+  {
+   "codigo": "14.09",
+   "atividade": "Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento.",
+   "descricao": "Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento."
+  },
+  {
+   "codigo": "14.10",
+   "atividade": "Tinturaria e lavanderia.",
+   "descricao": "Tinturaria e lavanderia."
+  },
+  {
+   "codigo": "14.11",
+   "atividade": "Tapeçaria e reforma de estofamentos em geral.",
+   "descricao": "Tapeçaria e reforma de estofamentos em geral."
+  },
+  {
+   "codigo": "14.12",
+   "atividade": "Funilaria e lanternagem.",
+   "descricao": "Funilaria e lanternagem."
+  },
+  {
+   "codigo": "14.13",
+   "atividade": "Carpintaria e serralheria.",
+   "descricao": "Carpintaria e serralheria."
+  },
+  {
+   "codigo": "14.14",
+   "atividade": "Guincho intramunicipal, guindaste e içamento. (Redação dada pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Guincho intramunicipal, guindaste e içamento. (Redação dada pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "15.01",
+   "atividade": "Administração de fundos quaisquer, de consórcio, de cartão de crédito ou débito e congêneres, de carteira de clientes, de cheques prédatados e congêneres.",
+   "descricao": "Administração de fundos quaisquer, de consórcio, de cartão de crédito ou débito e congêneres, de carteira de clientes, de cheques prédatados e congêneres."
+  },
+  {
+   "codigo": "15.02",
+   "atividade": "Abertura de contas em geral, inclusive contacorrente, conta de investimentos e aplicação e caderneta de poupança, no País e no exterior, bem como a",
+   "descricao": "Abertura de contas em geral, inclusive contacorrente, conta de investimentos e aplicação e caderneta de poupança, no País e no exterior, bem como a manutenção das referidas contas ativas e inativas."
+  },
+  {
+   "codigo": "15.03",
+   "atividade": "Locação e manutenção de cofres particulares, de terminais eletrônicos, de terminais de atendimento e de bens e equipamentos em geral.",
+   "descricao": "Locação e manutenção de cofres particulares, de terminais eletrônicos, de terminais de atendimento e de bens e equipamentos em geral."
+  },
+  {
+   "codigo": "15.04",
+   "atividade": "Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.",
+   "descricao": "Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres."
+  },
+  {
+   "codigo": "15.05",
+   "atividade": "Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres, inclusão ou exclusão no Cadastro de Emitentes de Cheques sem Fundos CCF ou em",
+   "descricao": "Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres, inclusão ou exclusão no Cadastro de Emitentes de Cheques sem Fundos CCF ou em quaisquer outros bancos cadastrais."
+  },
+  {
+   "codigo": "15.06",
+   "atividade": "Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral; abono de firmas; coleta e entrega de documentos, bens e valores;",
+   "descricao": "Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral; abono de firmas; coleta e entrega de documentos, bens e valores; comunicação com outra agência ou com a administração central; licenciamento eletrônico de veículos; transferência de veículos; agenciamento fiduciário ou depositário; devolução de bens em custódia."
+  },
+  {
+   "codigo": "15.07",
+   "atividade": "Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, facsímile, internet e telex, acesso a terminais de atendimento, inclusive vinte e quatro horas; acesso a outro banco e a rede compartilhada; fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.",
+   "descricao": "Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, facsímile, internet e telex, acesso a terminais de atendimento, inclusive vinte e quatro horas; acesso a outro banco e a rede compartilhada; fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo."
+  },
+  {
+   "codigo": "15.08",
+   "atividade": "Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito; estudo, análise e avaliação de operações de crédito;",
+   "descricao": "Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito; estudo, análise e avaliação de operações de crédito; emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres; serviços relativos a abertura de crédito, para quaisquer fins."
+  },
+  {
+   "codigo": "15.09",
+   "atividade": "Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de",
+   "descricao": "Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing)."
+  },
+  {
+   "codigo": "15.10",
+   "atividade": "Serviços relacionados a cobranças, recebimentos ou pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de",
+   "descricao": "Serviços relacionados a cobranças, recebimentos ou pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento; fornecimento de posição de cobrança, recebimento ou pagamento; emissão de carnês, fichas de compensação, impressos e documentos em geral."
+  },
+  {
+   "codigo": "15.11",
+   "atividade": "Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.",
+   "descricao": "Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados."
+  },
+  {
+   "codigo": "15.12",
+   "atividade": "Custódia em geral, inclusive de títulos e valores mobiliários.",
+   "descricao": "Custódia em geral, inclusive de títulos e valores mobiliários."
+  },
+  {
+   "codigo": "15.13",
+   "atividade": "Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio; emissão de registro de",
+   "descricao": "Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio; emissão de registro de exportação ou de crédito; cobrança ou depósito no exterior; emissão, fornecimento e cancelamento de cheques de viagem; fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas; envio e recebimento de mensagens em geral relacionadas a operações de câmbio."
+  },
+  {
+   "codigo": "15.14",
+   "atividade": "Fornecimento, emissão, reemissão, renovação e manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.",
+   "descricao": "Fornecimento, emissão, reemissão, renovação e manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres."
+  },
+  {
+   "codigo": "15.15",
+   "atividade": "Compensação de cheques e títulos quaisquer; serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio",
+   "descricao": "Compensação de cheques e títulos quaisquer; serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento."
+  },
+  {
+   "codigo": "15.16",
+   "atividade": "Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo;",
+   "descricao": "Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo; serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral."
+  },
+  {
+   "codigo": "15.17",
+   "atividade": "Emissão, fornecimento, devolução, sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.",
+   "descricao": "Emissão, fornecimento, devolução, sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão."
+  },
+  {
+   "codigo": "15.18",
+   "atividade": "Serviços relacionados a crédito imobiliário, avaliação e vistoria de imóvel ou obra, análise técnica e jurídica, emissão, reemissão, alteração, transferência e",
+   "descricao": "Serviços relacionados a crédito imobiliário, avaliação e vistoria de imóvel ou obra, análise técnica e jurídica, emissão, reemissão, alteração, transferência e renegociação de contrato, emissão e reemissão do termo de quitação e demais serviços relacionados a crédito imobiliário."
+  },
+  {
+   "codigo": "16.01",
+   "atividade": "Serviços de transporte coletivo municipal rodoviário, metroviário, ferroviário e aquaviário de passageiros. (Redação dada pela Lei Complementar nº 157, de",
+   "descricao": "Serviços de transporte coletivo municipal rodoviário, metroviário, ferroviário e aquaviário de passageiros. (Redação dada pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "16.02",
+   "atividade": "Outros serviços de transporte de natureza municipal. (Incluído pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Outros serviços de transporte de natureza municipal. (Incluído pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "17.01",
+   "atividade": "Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista; análise, exame, pesquisa, coleta, compilação e fornecimento de dados e",
+   "descricao": "Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista; análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares."
+  },
+  {
+   "codigo": "17.02",
+   "atividade": "Datilografia, digitação, estenografia, expediente, secretaria em geral, resposta audível, redação, edição, interpretação, revisão, tradução, apoio e infraestrutura",
+   "descricao": "Datilografia, digitação, estenografia, expediente, secretaria em geral, resposta audível, redação, edição, interpretação, revisão, tradução, apoio e infraestrutura administrativa e congêneres."
+  },
+  {
+   "codigo": "17.03",
+   "atividade": "Planejamento, coordenação, programação ou organização técnica, financeira ou administrativa.",
+   "descricao": "Planejamento, coordenação, programação ou organização técnica, financeira ou administrativa."
+  },
+  {
+   "codigo": "17.04",
+   "atividade": "Recrutamento, agenciamento, seleção e colocação de mãodeobra.",
+   "descricao": "Recrutamento, agenciamento, seleção e colocação de mãodeobra."
+  },
+  {
+   "codigo": "17.05",
+   "atividade": "Fornecimento de mãodeobra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de",
+   "descricao": "Fornecimento de mãodeobra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço."
+  },
+  {
+   "codigo": "17.06",
+   "atividade": "Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais",
+   "descricao": "Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários."
+  },
+  {
+   "codigo": "17.08",
+   "atividade": "Franquia (franchising).",
+   "descricao": "Franquia (franchising)."
+  },
+  {
+   "codigo": "17.09",
+   "atividade": "Perícias, laudos, exames técnicos e análises técnicas.",
+   "descricao": "Perícias, laudos, exames técnicos e análises técnicas."
+  },
+  {
+   "codigo": "17.10",
+   "atividade": "Planejamento, organização e administração de feiras, exposições, congressos e congêneres.",
+   "descricao": "Planejamento, organização e administração de feiras, exposições, congressos e congêneres."
+  },
+  {
+   "codigo": "17.11",
+   "atividade": "Organização de festas e recepções; bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).",
+   "descricao": "Organização de festas e recepções; bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS)."
+  },
+  {
+   "codigo": "17.12",
+   "atividade": "Administração em geral, inclusive de bens e negócios de terceiros.",
+   "descricao": "Administração em geral, inclusive de bens e negócios de terceiros."
+  },
+  {
+   "codigo": "17.13",
+   "atividade": "Leilão e congêneres.",
+   "descricao": "Leilão e congêneres."
+  },
+  {
+   "codigo": "17.14",
+   "atividade": "Advocacia.",
+   "descricao": "Advocacia."
+  },
+  {
+   "codigo": "17.15",
+   "atividade": "Arbitragem de qualquer espécie, inclusive jurídica.",
+   "descricao": "Arbitragem de qualquer espécie, inclusive jurídica."
+  },
+  {
+   "codigo": "17.16",
+   "atividade": "Auditoria.",
+   "descricao": "Auditoria."
+  },
+  {
+   "codigo": "17.17",
+   "atividade": "Análise de Organização e Métodos.",
+   "descricao": "Análise de Organização e Métodos."
+  },
+  {
+   "codigo": "17.18",
+   "atividade": "Atuária e cálculos técnicos de qualquer natureza.",
+   "descricao": "Atuária e cálculos técnicos de qualquer natureza."
+  },
+  {
+   "codigo": "17.19",
+   "atividade": "Contabilidade, inclusive serviços técnicos e auxiliares.",
+   "descricao": "Contabilidade, inclusive serviços técnicos e auxiliares."
+  },
+  {
+   "codigo": "17.20",
+   "atividade": "Consultoria e assessoria econômica ou financeira.",
+   "descricao": "Consultoria e assessoria econômica ou financeira."
+  },
+  {
+   "codigo": "17.21",
+   "atividade": "Estatística.",
+   "descricao": "Estatística."
+  },
+  {
+   "codigo": "17.22",
+   "atividade": "Cobrança em geral.",
+   "descricao": "Cobrança em geral."
+  },
+  {
+   "codigo": "17.23",
+   "atividade": "Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em",
+   "descricao": "Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring)."
+  },
+  {
+   "codigo": "17.24",
+   "atividade": "Apresentação de palestras, conferências, seminários e congêneres.",
+   "descricao": "Apresentação de palestras, conferências, seminários e congêneres."
+  },
+  {
+   "codigo": "17.25",
+   "atividade": "Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de",
+   "descricao": "Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita). (Incluído pela L"
+  },
+  {
+   "codigo": "18.01",
+   "atividade": "Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência",
+   "descricao": "Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência de riscos seguráveis e congêneres."
+  },
+  {
+   "codigo": "19.01",
+   "atividade": "Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os",
+   "descricao": "Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres."
+  },
+  {
+   "codigo": "20.01",
+   "atividade": "Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação,",
+   "descricao": "Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres."
+  },
+  {
+   "codigo": "20.02",
+   "atividade": "Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves,",
+   "descricao": "Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres."
+  },
+  {
+   "codigo": "20.03",
+   "atividade": "Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive     suas operações, logística e congêneres.",
+   "descricao": "Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive     suas operações, logística e congêneres."
+  },
+  {
+   "codigo": "21.01",
+   "atividade": "Serviços de registros públicos, cartorários e notariais.",
+   "descricao": "Serviços de registros públicos, cartorários e notariais."
+  },
+  {
+   "codigo": "22.01",
+   "atividade": "Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção,",
+   "descricao": "Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em      normas oficiais."
+  },
+  {
+   "codigo": "23.01",
+   "atividade": "Serviços de programação e comunicação visual, desenho industrial e congêneres.",
+   "descricao": "Serviços de programação e comunicação visual, desenho industrial e congêneres."
+  },
+  {
+   "codigo": "24.01",
+   "atividade": "Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres.",
+   "descricao": "Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres."
+  },
+  {
+   "codigo": "25.01",
+   "atividade": "Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros",
+   "descricao": "Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres."
+  },
+  {
+   "codigo": "25.02",
+   "atividade": "Translado intramunicipal e cremação de corpos e partes de corpos cadavéricos.  (Redação dada pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Translado intramunicipal e cremação de corpos e partes de corpos cadavéricos.  (Redação dada pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "25.03",
+   "atividade": "Planos ou convênio funerários.",
+   "descricao": "Planos ou convênio funerários."
+  },
+  {
+   "codigo": "25.04",
+   "atividade": "Manutenção e conservação de jazigos e cemitérios.",
+   "descricao": "Manutenção e conservação de jazigos e cemitérios."
+  },
+  {
+   "codigo": "25.05",
+   "atividade": "Cessão de uso de espaços em cemitérios para sepultamento. (Incluído pela Lei Complementar nº 157, de 2016)",
+   "descricao": "Cessão de uso de espaços em cemitérios para sepultamento. (Incluído pela Lei Complementar nº 157, de 2016)"
+  },
+  {
+   "codigo": "26.01",
+   "atividade": "Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres.",
+   "descricao": "Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres."
+  },
+  {
+   "codigo": "27.01",
+   "atividade": "Serviços de assistência social.",
+   "descricao": "Serviços de assistência social."
+  },
+  {
+   "codigo": "28.01",
+   "atividade": "Serviços de avaliação de bens e serviços de qualquer natureza.",
+   "descricao": "Serviços de avaliação de bens e serviços de qualquer natureza."
+  },
+  {
+   "codigo": "29.01",
+   "atividade": "Serviços de biblioteconomia.",
+   "descricao": "Serviços de biblioteconomia."
+  },
+  {
+   "codigo": "30.01",
+   "atividade": "Serviços de biologia, biotecnologia e química.",
+   "descricao": "Serviços de biologia, biotecnologia e química."
+  },
+  {
+   "codigo": "31.01",
+   "atividade": "Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres.",
+   "descricao": "Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres."
+  },
+  {
+   "codigo": "32.01",
+   "atividade": "Serviços de desenhos técnicos.",
+   "descricao": "Serviços de desenhos técnicos."
+  },
+  {
+   "codigo": "33.01",
+   "atividade": "Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.",
+   "descricao": "Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres."
+  },
+  {
+   "codigo": "34.01",
+   "atividade": "Serviços de investigações particulares, detetives e congêneres.",
+   "descricao": "Serviços de investigações particulares, detetives e congêneres."
+  },
+  {
+   "codigo": "35.01",
+   "atividade": "Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas.",
+   "descricao": "Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas."
+  },
+  {
+   "codigo": "36.01",
+   "atividade": "Serviços de meteorologia.",
+   "descricao": "Serviços de meteorologia."
+  },
+  {
+   "codigo": "37.01",
+   "atividade": "Serviços de artistas, atletas, modelos e manequins.",
+   "descricao": "Serviços de artistas, atletas, modelos e manequins."
+  },
+  {
+   "codigo": "38.01",
+   "atividade": "Serviços de museologia.",
+   "descricao": "Serviços de museologia."
+  },
+  {
+   "codigo": "39.01",
+   "atividade": "Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).",
+   "descricao": "Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço)."
+  },
+  {
+   "codigo": "40.01",
+   "atividade": "Obras de arte sob encomenda.",
+   "descricao": "Obras de arte sob encomenda."
+  }
+ ],
+ "sap": [
+  {
+   "cenario": 1,
+   "codigo_atividade": "01.01",
+   "codigo_sap": "SV.01.01.00",
+   "aliquota": 0,
+   "chave1": "01.010,0150,04650",
+   "chave2": "01.010,0150,04650"
+  },
+  {
+   "cenario": 2,
+   "codigo_atividade": "01.01",
+   "codigo_sap": "SV.01.01.01",
+   "aliquota": 0,
+   "chave1": "01.010,01500",
+   "chave2": "01.010,01500"
+  },
+  {
+   "cenario": 3,
+   "codigo_atividade": "01.01",
+   "codigo_sap": "SV.01.01.02",
+   "aliquota": 0.035,
+   "chave1": "01.010,01500,11",
+   "chave2": "01.010,01500,035"
+  },
+  {
+   "cenario": 4,
+   "codigo_atividade": "01.01",
+   "codigo_sap": "SV.01.01.03",
+   "aliquota": 0.035,
+   "chave1": "01.010,0150,04650,11",
+   "chave2": "01.010,0150,04650,035"
+  },
+  {
+   "cenario": 5,
+   "codigo_atividade": "01.02",
+   "codigo_sap": "SV.01.02.00",
+   "aliquota": 0,
+   "chave1": "01.020,01500",
+   "chave2": "01.020,01500"
+  },
+  {
+   "cenario": 6,
+   "codigo_atividade": "01.02",
+   "codigo_sap": "SV.01.02.01",
+   "aliquota": 0,
+   "chave1": "01.020,0150,04650",
+   "chave2": "01.020,0150,04650"
+  },
+  {
+   "cenario": 7,
+   "codigo_atividade": "01.02",
+   "codigo_sap": "SV.01.02.02",
+   "aliquota": 0.035,
+   "chave1": "01.020,01500,11",
+   "chave2": "01.020,01500,035"
+  },
+  {
+   "cenario": 8,
+   "codigo_atividade": "01.02",
+   "codigo_sap": "SV.01.02.03",
+   "aliquota": 0.035,
+   "chave1": "01.020,0150,04650,11",
+   "chave2": "01.020,0150,04650,035"
+  },
+  {
+   "cenario": 9,
+   "codigo_atividade": "01.03",
+   "codigo_sap": "SV.01.03.00",
+   "aliquota": 0,
+   "chave1": "01.03000",
+   "chave2": "01.03000"
+  },
+  {
+   "cenario": 10,
+   "codigo_atividade": "01.03",
+   "codigo_sap": "SV.01.03.01",
+   "aliquota": 0.035,
+   "chave1": "01.03000,11",
+   "chave2": "01.03000,035"
+  },
+  {
+   "cenario": 11,
+   "codigo_atividade": "01.04",
+   "codigo_sap": "SV.01.04.00",
+   "aliquota": 0,
+   "chave1": "01.040,0150,04650",
+   "chave2": "01.040,0150,04650"
+  },
+  {
+   "cenario": 12,
+   "codigo_atividade": "01.04",
+   "codigo_sap": "SV.01.04.01",
+   "aliquota": 0.035,
+   "chave1": "01.040,0150,04650,11",
+   "chave2": "01.040,0150,04650,035"
+  },
+  {
+   "cenario": 13,
+   "codigo_atividade": "01.05",
+   "codigo_sap": "SV.01.05.00",
+   "aliquota": 0,
+   "chave1": "01.05000",
+   "chave2": "01.05000"
+  },
+  {
+   "cenario": 14,
+   "codigo_atividade": "01.05",
+   "codigo_sap": "SV.01.05.01",
+   "aliquota": 0.035,
+   "chave1": "01.05000,11",
+   "chave2": "01.05000,035"
+  },
+  {
+   "cenario": 15,
+   "codigo_atividade": "01.05",
+   "codigo_sap": "SV.01.05.02",
+   "aliquota": 0,
+   "chave1": "01.050,0150,04650",
+   "chave2": "01.050,0150,04650"
+  },
+  {
+   "cenario": 16,
+   "codigo_atividade": "01.05",
+   "codigo_sap": "SV.01.05.03",
+   "aliquota": 0.035,
+   "chave1": "01.050,0150,04650,11",
+   "chave2": "01.050,0150,04650,035"
+  },
+  {
+   "cenario": 17,
+   "codigo_atividade": "01.06",
+   "codigo_sap": "SV.01.06.00",
+   "aliquota": 0,
+   "chave1": "01.060,0150,04650",
+   "chave2": "01.060,0150,04650"
+  },
+  {
+   "cenario": 18,
+   "codigo_atividade": "01.06",
+   "codigo_sap": "SV.01.06.01",
+   "aliquota": 0,
+   "chave1": "01.060,01500",
+   "chave2": "01.060,01500"
+  },
+  {
+   "cenario": 19,
+   "codigo_atividade": "01.07",
+   "codigo_sap": "SV.01.07.00",
+   "aliquota": 0,
+   "chave1": "01.070,0150,04650",
+   "chave2": "01.070,0150,04650"
+  },
+  {
+   "cenario": 20,
+   "codigo_atividade": "01.07",
+   "codigo_sap": "SV.01.07.01",
+   "aliquota": 0,
+   "chave1": "01.07000",
+   "chave2": "01.07000"
+  },
+  {
+   "cenario": 21,
+   "codigo_atividade": "01.07",
+   "codigo_sap": "SV.01.07.02",
+   "aliquota": 0.035,
+   "chave1": "01.070,0150,04650,11",
+   "chave2": "01.070,0150,04650,035"
+  },
+  {
+   "cenario": 22,
+   "codigo_atividade": "01.07",
+   "codigo_sap": "SV.01.07.03",
+   "aliquota": 0.035,
+   "chave1": "01.07000,11",
+   "chave2": "01.07000,035"
+  },
+  {
+   "cenario": 22,
+   "codigo_atividade": "01.07",
+   "codigo_sap": "SV.01.07.04",
+   "aliquota": 0.035,
+   "chave1": "01.0700,04650,11",
+   "chave2": "01.0700,04650,035"
+  },
+  {
+   "cenario": 23,
+   "codigo_atividade": "01.08",
+   "codigo_sap": "SV.01.08.00",
+   "aliquota": 0,
+   "chave1": "01.080,0150,04650",
+   "chave2": "01.080,0150,04650"
+  },
+  {
+   "cenario": 24,
+   "codigo_atividade": "01.08",
+   "codigo_sap": "SV.01.08.01",
+   "aliquota": 0.035,
+   "chave1": "01.080,0150,04650,11",
+   "chave2": "01.080,0150,04650,035"
+  },
+  {
+   "cenario": 25,
+   "codigo_atividade": "01.09",
+   "codigo_sap": "SV.01.09.00",
+   "aliquota": 0,
+   "chave1": "01.09000",
+   "chave2": "01.09000"
+  },
+  {
+   "cenario": 26,
+   "codigo_atividade": "02.01",
+   "codigo_sap": "SV.02.01.00",
+   "aliquota": 0,
+   "chave1": "02.010,0150,04650",
+   "chave2": "02.010,0150,04650"
+  },
+  {
+   "cenario": 27,
+   "codigo_atividade": "02.01",
+   "codigo_sap": "SV.02.01.01",
+   "aliquota": 0,
+   "chave1": "02.01000",
+   "chave2": "02.01000"
+  },
+  {
+   "cenario": 28,
+   "codigo_atividade": "03.02",
+   "codigo_sap": "SV.03.02.00",
+   "aliquota": 0,
+   "chave1": "03.02000",
+   "chave2": "03.02000"
+  },
+  {
+   "cenario": 29,
+   "codigo_atividade": "03.03",
+   "codigo_sap": "SV.03.03.00",
+   "aliquota": 0,
+   "chave1": "03.03000",
+   "chave2": "03.03000"
+  },
+  {
+   "cenario": 30,
+   "codigo_atividade": "03.04",
+   "codigo_sap": "SV.03.04.00",
+   "aliquota": 0,
+   "chave1": "03.04000",
+   "chave2": "03.04000"
+  },
+  {
+   "cenario": 31,
+   "codigo_atividade": "03.05",
+   "codigo_sap": "SV.03.05.00",
+   "aliquota": 0,
+   "chave1": "03.05000",
+   "chave2": "03.05000"
+  },
+  {
+   "cenario": 32,
+   "codigo_atividade": "03.05",
+   "codigo_sap": "SV.03.05.01",
+   "aliquota": 0.035,
+   "chave1": "03.05000,11",
+   "chave2": "03.05000,035"
+  },
+  {
+   "cenario": 33,
+   "codigo_atividade": "04.01",
+   "codigo_sap": "SV.04.01.00",
+   "aliquota": 0,
+   "chave1": "04.010,0150,04650",
+   "chave2": "04.010,0150,04650"
+  },
+  {
+   "cenario": 34,
+   "codigo_atividade": "04.01",
+   "codigo_sap": "SV.04.01.01",
+   "aliquota": 0.035,
+   "chave1": "04.010,0150,04650,11",
+   "chave2": "04.010,0150,04650,035"
+  },
+  {
+   "cenario": 35,
+   "codigo_atividade": "04.02",
+   "codigo_sap": "SV.04.02.00",
+   "aliquota": 0,
+   "chave1": "04.020,0150,04650",
+   "chave2": "04.020,0150,04650"
+  },
+  {
+   "cenario": 36,
+   "codigo_atividade": "04.02",
+   "codigo_sap": "SV.04.02.01",
+   "aliquota": 0.035,
+   "chave1": "04.020,0150,04650,11",
+   "chave2": "04.020,0150,04650,035"
+  },
+  {
+   "cenario": 37,
+   "codigo_atividade": "04.03",
+   "codigo_sap": "SV.04.03.00",
+   "aliquota": 0,
+   "chave1": "04.030,0150,04650",
+   "chave2": "04.030,0150,04650"
+  },
+  {
+   "cenario": 38,
+   "codigo_atividade": "04.03",
+   "codigo_sap": "SV.04.03.01",
+   "aliquota": 0.035,
+   "chave1": "04.030,0150,04650,11",
+   "chave2": "04.030,0150,04650,035"
+  },
+  {
+   "cenario": 39,
+   "codigo_atividade": "04.04",
+   "codigo_sap": "SV.04.04.00",
+   "aliquota": 0,
+   "chave1": "04.040,0150,04650",
+   "chave2": "04.040,0150,04650"
+  },
+  {
+   "cenario": 40,
+   "codigo_atividade": "04.05",
+   "codigo_sap": "SV.04.05.00",
+   "aliquota": 0,
+   "chave1": "04.05000",
+   "chave2": "04.05000"
+  },
+  {
+   "cenario": 41,
+   "codigo_atividade": "04.05",
+   "codigo_sap": "SV.04.05.01",
+   "aliquota": 0.035,
+   "chave1": "04.05000,11",
+   "chave2": "04.05000,035"
+  },
+  {
+   "cenario": 42,
+   "codigo_atividade": "04.06",
+   "codigo_sap": "SV.04.06.00",
+   "aliquota": 0,
+   "chave1": "04.060,0150,04650",
+   "chave2": "04.060,0150,04650"
+  },
+  {
+   "cenario": 43,
+   "codigo_atividade": "04.06",
+   "codigo_sap": "SV.04.06.01",
+   "aliquota": 0.035,
+   "chave1": "04.060,0150,04650,11",
+   "chave2": "04.060,0150,04650,035"
+  },
+  {
+   "cenario": 44,
+   "codigo_atividade": "04.07",
+   "codigo_sap": "SV.04.07.00",
+   "aliquota": 0,
+   "chave1": "04.07000",
+   "chave2": "04.07000"
+  },
+  {
+   "cenario": 45,
+   "codigo_atividade": "04.08",
+   "codigo_sap": "SV.04.08.00",
+   "aliquota": 0,
+   "chave1": "04.080,0150,04650",
+   "chave2": "04.080,0150,04650"
+  },
+  {
+   "cenario": 46,
+   "codigo_atividade": "04.08",
+   "codigo_sap": "SV.04.08.01",
+   "aliquota": 0.035,
+   "chave1": "04.080,0150,04650,11",
+   "chave2": "04.080,0150,04650,035"
+  },
+  {
+   "cenario": 47,
+   "codigo_atividade": "04.09",
+   "codigo_sap": "SV.04.09.00",
+   "aliquota": 0,
+   "chave1": "04.090,0150,04650",
+   "chave2": "04.090,0150,04650"
+  },
+  {
+   "cenario": 48,
+   "codigo_atividade": "04.09",
+   "codigo_sap": "SV.04.09.01",
+   "aliquota": 0.035,
+   "chave1": "04.090,0150,04650,11",
+   "chave2": "04.090,0150,04650,035"
+  },
+  {
+   "cenario": 49,
+   "codigo_atividade": "04.10",
+   "codigo_sap": "SV.14.10.11",
+   "aliquota": 0,
+   "chave1": "04.100,0150,04650",
+   "chave2": "04.100,0150,04650"
+  },
+  {
+   "cenario": 50,
+   "codigo_atividade": "04.11",
+   "codigo_sap": "SV.14.11.00",
+   "aliquota": 0,
+   "chave1": "04.110,0150,04650",
+   "chave2": "04.110,0150,04650"
+  },
+  {
+   "cenario": 51,
+   "codigo_atividade": "04.11",
+   "codigo_sap": "SV.14.11.01",
+   "aliquota": 0.035,
+   "chave1": "04.110,0150,04650,11",
+   "chave2": "04.110,0150,04650,035"
+  },
+  {
+   "cenario": 52,
+   "codigo_atividade": "04.12",
+   "codigo_sap": "SV.04.12.00",
+   "aliquota": 0,
+   "chave1": "04.120,0150,04650",
+   "chave2": "04.120,0150,04650"
+  },
+  {
+   "cenario": 53,
+   "codigo_atividade": "04.12",
+   "codigo_sap": "SV.04.12.01",
+   "aliquota": 0.035,
+   "chave1": "04.120,0150,04650,11",
+   "chave2": "04.120,0150,04650,035"
+  },
+  {
+   "cenario": 54,
+   "codigo_atividade": "04.13",
+   "codigo_sap": "SV.04.13.00",
+   "aliquota": 0,
+   "chave1": "04.130,0150,04650",
+   "chave2": "04.130,0150,04650"
+  },
+  {
+   "cenario": 55,
+   "codigo_atividade": "04.13",
+   "codigo_sap": "SV.04.13.01",
+   "aliquota": 0.035,
+   "chave1": "04.130,0150,04650,11",
+   "chave2": "04.130,0150,04650,035"
+  },
+  {
+   "cenario": 56,
+   "codigo_atividade": "04.14",
+   "codigo_sap": "SV.04.14.00",
+   "aliquota": 0,
+   "chave1": "04.140,0150,04650",
+   "chave2": "04.140,0150,04650"
+  },
+  {
+   "cenario": 57,
+   "codigo_atividade": "04.15",
+   "codigo_sap": "SV.04.15.00",
+   "aliquota": 0,
+   "chave1": "04.150,0150,04650",
+   "chave2": "04.150,0150,04650"
+  },
+  {
+   "cenario": 58,
+   "codigo_atividade": "04.15",
+   "codigo_sap": "SV.04.15.01",
+   "aliquota": 0.035,
+   "chave1": "04.150,0150,04650,11",
+   "chave2": "04.150,0150,04650,035"
+  },
+  {
+   "cenario": 59,
+   "codigo_atividade": "04.16",
+   "codigo_sap": "SV.04.16.00",
+   "aliquota": 0,
+   "chave1": "04.160,0150,04650",
+   "chave2": "04.160,0150,04650"
+  },
+  {
+   "cenario": 60,
+   "codigo_atividade": "04.16",
+   "codigo_sap": "SV.04.16.01",
+   "aliquota": 0.035,
+   "chave1": "04.160,0150,04650,11",
+   "chave2": "04.160,0150,04650,035"
+  },
+  {
+   "cenario": 61,
+   "codigo_atividade": "04.17",
+   "codigo_sap": "SV.04.17.00",
+   "aliquota": 0,
+   "chave1": "04.17000",
+   "chave2": "04.17000"
+  },
+  {
+   "cenario": 62,
+   "codigo_atividade": "04.18",
+   "codigo_sap": "SV.04.18.00",
+   "aliquota": 0,
+   "chave1": "04.180,0150,04650",
+   "chave2": "04.180,0150,04650"
+  },
+  {
+   "cenario": 63,
+   "codigo_atividade": "04.19",
+   "codigo_sap": "SV.04.19.00",
+   "aliquota": 0,
+   "chave1": "04.19000",
+   "chave2": "04.19000"
+  },
+  {
+   "cenario": 64,
+   "codigo_atividade": "04.20",
+   "codigo_sap": "SV.04.20.00",
+   "aliquota": 0,
+   "chave1": "04.20000",
+   "chave2": "04.20000"
+  },
+  {
+   "cenario": 65,
+   "codigo_atividade": "04.21",
+   "codigo_sap": "SV.04.21.00",
+   "aliquota": 0,
+   "chave1": "04.21000",
+   "chave2": "04.21000"
+  },
+  {
+   "cenario": 66,
+   "codigo_atividade": "04.21",
+   "codigo_sap": "SV.04.21.01",
+   "aliquota": 0.035,
+   "chave1": "04.21000,11",
+   "chave2": "04.21000,035"
+  },
+  {
+   "cenario": 67,
+   "codigo_atividade": "04.22",
+   "codigo_sap": "SV.04.22.00",
+   "aliquota": 0,
+   "chave1": "04.220,0150,04650",
+   "chave2": "04.220,0150,04650"
+  },
+  {
+   "cenario": 68,
+   "codigo_atividade": "04.22",
+   "codigo_sap": "SV.04.22.01",
+   "aliquota": 0,
+   "chave1": "04.220,0150,03650",
+   "chave2": "04.220,0150,03650"
+  },
+  {
+   "cenario": 69,
+   "codigo_atividade": "04.22",
+   "codigo_sap": "SV.04.22.02",
+   "aliquota": 0.035,
+   "chave1": "04.220,0150,04650,11",
+   "chave2": "04.220,0150,04650,035"
+  },
+  {
+   "cenario": 70,
+   "codigo_atividade": "04.23",
+   "codigo_sap": "SV.04.23.00",
+   "aliquota": 0,
+   "chave1": "04.23000",
+   "chave2": "04.23000"
+  },
+  {
+   "cenario": 71,
+   "codigo_atividade": "04.23",
+   "codigo_sap": "SV.04.23.01",
+   "aliquota": 0,
+   "chave1": "04.2300,65% e 3%0",
+   "chave2": "04.2300,65% e 3%0"
+  },
+  {
+   "cenario": 72,
+   "codigo_atividade": "04.23",
+   "codigo_sap": "SV.04.23.02",
+   "aliquota": 0,
+   "chave1": "04.230,01500",
+   "chave2": "04.230,01500"
+  },
+  {
+   "cenario": 73,
+   "codigo_atividade": "05.01",
+   "codigo_sap": "SV.05.01.00",
+   "aliquota": 0,
+   "chave1": "05.010,0150,04650",
+   "chave2": "05.010,0150,04650"
+  },
+  {
+   "cenario": 74,
+   "codigo_atividade": "05.02",
+   "codigo_sap": "SV.05.02.00",
+   "aliquota": 0,
+   "chave1": "05.020,0150,04650",
+   "chave2": "05.020,0150,04650"
+  },
+  {
+   "cenario": 75,
+   "codigo_atividade": "05.03",
+   "codigo_sap": "SV.05.03.00",
+   "aliquota": 0,
+   "chave1": "05.030,0150,04650",
+   "chave2": "05.030,0150,04650"
+  },
+  {
+   "cenario": 76,
+   "codigo_atividade": "05.04",
+   "codigo_sap": "SV.05.04.00",
+   "aliquota": 0,
+   "chave1": "05.040,0150,04650",
+   "chave2": "05.040,0150,04650"
+  },
+  {
+   "cenario": 77,
+   "codigo_atividade": "05.05",
+   "codigo_sap": "SV.05.05.00",
+   "aliquota": 0,
+   "chave1": "05.050,0150,04650",
+   "chave2": "05.050,0150,04650"
+  },
+  {
+   "cenario": 78,
+   "codigo_atividade": "05.06",
+   "codigo_sap": "SV.05.06.00",
+   "aliquota": 0,
+   "chave1": "05.060,0150,04650",
+   "chave2": "05.060,0150,04650"
+  },
+  {
+   "cenario": 79,
+   "codigo_atividade": "05.07",
+   "codigo_sap": "SV.05.07.00",
+   "aliquota": 0,
+   "chave1": "05.070,0150,04650",
+   "chave2": "05.070,0150,04650"
+  },
+  {
+   "cenario": 80,
+   "codigo_atividade": "05.08",
+   "codigo_sap": "SV.05.08.00",
+   "aliquota": 0,
+   "chave1": "05.080,0150,04650",
+   "chave2": "05.080,0150,04650"
+  },
+  {
+   "cenario": 81,
+   "codigo_atividade": "05.09",
+   "codigo_sap": "SV.05.09.00",
+   "aliquota": 0,
+   "chave1": "05.090,0150,04650",
+   "chave2": "05.090,0150,04650"
+  },
+  {
+   "cenario": 82,
+   "codigo_atividade": "06.01",
+   "codigo_sap": "SV.06.01.00",
+   "aliquota": 0,
+   "chave1": "06.01000",
+   "chave2": "06.01000"
+  },
+  {
+   "cenario": 83,
+   "codigo_atividade": "06.02",
+   "codigo_sap": "SV.06.02.00",
+   "aliquota": 0,
+   "chave1": "06.020,01500",
+   "chave2": "06.020,01500"
+  },
+  {
+   "cenario": 84,
+   "codigo_atividade": "06.03",
+   "codigo_sap": "SV.06.03.00",
+   "aliquota": 0,
+   "chave1": "06.030,01500",
+   "chave2": "06.030,01500"
+  },
+  {
+   "cenario": 85,
+   "codigo_atividade": "06.04",
+   "codigo_sap": "SV.06.04.00",
+   "aliquota": 0,
+   "chave1": "06.040,0150,04650",
+   "chave2": "06.040,0150,04650"
+  },
+  {
+   "cenario": 86,
+   "codigo_atividade": "06.05",
+   "codigo_sap": "SV.06.05.00",
+   "aliquota": 0,
+   "chave1": "06.050,01500",
+   "chave2": "06.050,01500"
+  },
+  {
+   "cenario": 87,
+   "codigo_atividade": "06.06",
+   "codigo_sap": "SV.06.06.00",
+   "aliquota": 0,
+   "chave1": "06.06000",
+   "chave2": "06.06000"
+  },
+  {
+   "cenario": 88,
+   "codigo_atividade": "07.01",
+   "codigo_sap": "SV.07.01.00",
+   "aliquota": 0,
+   "chave1": "07.01000",
+   "chave2": "07.01000"
+  },
+  {
+   "cenario": 89,
+   "codigo_atividade": "07.01",
+   "codigo_sap": "SV.07.01.01",
+   "aliquota": 0.035,
+   "chave1": "07.01000,11",
+   "chave2": "07.01000,035"
+  },
+  {
+   "cenario": 90,
+   "codigo_atividade": "07.01",
+   "codigo_sap": "SV.07.01.02",
+   "aliquota": 0,
+   "chave1": "07.010,0150,04650",
+   "chave2": "07.010,0150,04650"
+  },
+  {
+   "cenario": 91,
+   "codigo_atividade": "07.01",
+   "codigo_sap": "SV.07.01.03",
+   "aliquota": 0.035,
+   "chave1": "07.010,0150,04650,11",
+   "chave2": "07.010,0150,04650,035"
+  },
+  {
+   "cenario": 92,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.00",
+   "aliquota": 0,
+   "chave1": "07.02000",
+   "chave2": "07.02000"
+  },
+  {
+   "cenario": 93,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.01",
+   "aliquota": 0.035,
+   "chave1": "07.02000,11",
+   "chave2": "07.02000,035"
+  },
+  {
+   "cenario": 94,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.02",
+   "aliquota": 0,
+   "chave1": "07.020,0150,04650",
+   "chave2": "07.020,0150,04650"
+  },
+  {
+   "cenario": 95,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.03",
+   "aliquota": 0.035,
+   "chave1": "07.020,0150,04650,11",
+   "chave2": "07.020,0150,04650,035"
+  },
+  {
+   "cenario": 96,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.04",
+   "aliquota": 0,
+   "chave1": "07.020,014,65%0",
+   "chave2": "07.020,014,65%0"
+  },
+  {
+   "cenario": 97,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.05",
+   "aliquota": 0.035,
+   "chave1": "07.020,0100,11",
+   "chave2": "07.020,0100,035"
+  },
+  {
+   "cenario": 98,
+   "codigo_atividade": "07.02",
+   "codigo_sap": "SV.07.02.06",
+   "aliquota": 0,
+   "chave1": "07.02000",
+   "chave2": "07.02000"
+  },
+  {
+   "cenario": 99,
+   "codigo_atividade": "07.03",
+   "codigo_sap": "SV.07.03.00",
+   "aliquota": 0,
+   "chave1": "07.030,0150,04650",
+   "chave2": "07.030,0150,04650"
+  },
+  {
+   "cenario": 100,
+   "codigo_atividade": "07.03",
+   "codigo_sap": "SV.07.03.01",
+   "aliquota": 0.035,
+   "chave1": "07.030,0150,04650,11",
+   "chave2": "07.030,0150,04650,035"
+  },
+  {
+   "cenario": 101,
+   "codigo_atividade": "07.03",
+   "codigo_sap": "SV.07.03.02",
+   "aliquota": 0,
+   "chave1": "07.03000",
+   "chave2": "07.03000"
+  },
+  {
+   "cenario": 102,
+   "codigo_atividade": "07.03",
+   "codigo_sap": "SV.07.03.03",
+   "aliquota": 0.035,
+   "chave1": "07.03000,11",
+   "chave2": "07.03000,035"
+  },
+  {
+   "cenario": 103,
+   "codigo_atividade": "07.04",
+   "codigo_sap": "SV.07.04.00",
+   "aliquota": 0,
+   "chave1": "07.04000",
+   "chave2": "07.04000"
+  },
+  {
+   "cenario": 104,
+   "codigo_atividade": "07.05",
+   "codigo_sap": "SV.07.05.00",
+   "aliquota": 0,
+   "chave1": "07.05000",
+   "chave2": "07.05000"
+  },
+  {
+   "cenario": 105,
+   "codigo_atividade": "07.05",
+   "codigo_sap": "SV.07.05.01",
+   "aliquota": 0.035,
+   "chave1": "07.05000,11",
+   "chave2": "07.05000,035"
+  },
+  {
+   "cenario": 106,
+   "codigo_atividade": "07.05",
+   "codigo_sap": "SV.07.05.02",
+   "aliquota": 0,
+   "chave1": "07.050,0150,04650",
+   "chave2": "07.050,0150,04650"
+  },
+  {
+   "cenario": 107,
+   "codigo_atividade": "07.05",
+   "codigo_sap": "SV.07.05.03",
+   "aliquota": 0.035,
+   "chave1": "07.050,0150,04650,11",
+   "chave2": "07.050,0150,04650,035"
+  },
+  {
+   "cenario": 108,
+   "codigo_atividade": "07.06",
+   "codigo_sap": "SV.07.06.00",
+   "aliquota": 0,
+   "chave1": "07.06000",
+   "chave2": "07.06000"
+  },
+  {
+   "cenario": 109,
+   "codigo_atividade": "07.06",
+   "codigo_sap": "SV.07.06.01",
+   "aliquota": 0.035,
+   "chave1": "07.06000,11",
+   "chave2": "07.06000,035"
+  },
+  {
+   "cenario": 110,
+   "codigo_atividade": "07.07",
+   "codigo_sap": "SV.07.07.00",
+   "aliquota": 0,
+   "chave1": "07.070,010,04650",
+   "chave2": "07.070,010,04650"
+  },
+  {
+   "cenario": 111,
+   "codigo_atividade": "07.08",
+   "codigo_sap": "SV.07.08.00",
+   "aliquota": 0,
+   "chave1": "07.08000",
+   "chave2": "07.08000"
+  },
+  {
+   "cenario": 112,
+   "codigo_atividade": "07.09",
+   "codigo_sap": "SV.07.09.00",
+   "aliquota": 0,
+   "chave1": "07.090,010,04650",
+   "chave2": "07.090,010,04650"
+  },
+  {
+   "cenario": 113,
+   "codigo_atividade": "07.09",
+   "codigo_sap": "SV.07.09.01",
+   "aliquota": 0.035,
+   "chave1": "07.090,010,04650,11",
+   "chave2": "07.090,010,04650,035"
+  },
+  {
+   "cenario": 114,
+   "codigo_atividade": "07.09",
+   "codigo_sap": "SV.07.09.02",
+   "aliquota": 0,
+   "chave1": "07.09000",
+   "chave2": "07.09000"
+  },
+  {
+   "cenario": 115,
+   "codigo_atividade": "07.10",
+   "codigo_sap": "SV.07.10.00",
+   "aliquota": 0,
+   "chave1": "07.100,010,04650",
+   "chave2": "07.100,010,04650"
+  },
+  {
+   "cenario": 116,
+   "codigo_atividade": "07.10",
+   "codigo_sap": "SV.07.10.01",
+   "aliquota": 0.035,
+   "chave1": "07.100,010,04650,11",
+   "chave2": "07.100,010,04650,035"
+  },
+  {
+   "cenario": 117,
+   "codigo_atividade": "07.10",
+   "codigo_sap": "SV.07.10.02",
+   "aliquota": 0.035,
+   "chave1": "07.100,010,04650,11",
+   "chave2": "07.100,010,04650,035"
+  },
+  {
+   "cenario": 118,
+   "codigo_atividade": "07.10",
+   "codigo_sap": "SV.07.10.03",
+   "aliquota": 0.035,
+   "chave1": "07.100,010,04650,11",
+   "chave2": "07.100,010,04650,035"
+  },
+  {
+   "cenario": 119,
+   "codigo_atividade": "07.11",
+   "codigo_sap": "SV.07.11.00",
+   "aliquota": 0,
+   "chave1": "07.110,010,04650",
+   "chave2": "07.110,010,04650"
+  },
+  {
+   "cenario": 120,
+   "codigo_atividade": "07.11",
+   "codigo_sap": "SV.07.11.01",
+   "aliquota": 0.035,
+   "chave1": "07.110,010,04650,11",
+   "chave2": "07.110,010,04650,035"
+  },
+  {
+   "cenario": 121,
+   "codigo_atividade": "07.12",
+   "codigo_sap": "SV.07.12.00",
+   "aliquota": 0,
+   "chave1": "07.12000",
+   "chave2": "07.12000"
+  },
+  {
+   "cenario": 122,
+   "codigo_atividade": "07.12",
+   "codigo_sap": "SV.07.12.01",
+   "aliquota": 0.035,
+   "chave1": "07.12000,11",
+   "chave2": "07.12000,035"
+  },
+  {
+   "cenario": 123,
+   "codigo_atividade": "07.13",
+   "codigo_sap": "SV.07.13.00",
+   "aliquota": 0,
+   "chave1": "07.130,010,04650",
+   "chave2": "07.130,010,04650"
+  },
+  {
+   "cenario": 124,
+   "codigo_atividade": "07.13",
+   "codigo_sap": "SV.07.13.01",
+   "aliquota": 0.035,
+   "chave1": "07.130,010,04650,11",
+   "chave2": "07.130,010,04650,035"
+  },
+  {
+   "cenario": 125,
+   "codigo_atividade": "07.16",
+   "codigo_sap": "SV.07.16.00",
+   "aliquota": 0,
+   "chave1": "07.16000",
+   "chave2": "07.16000"
+  },
+  {
+   "cenario": 126,
+   "codigo_atividade": "07.17",
+   "codigo_sap": "SV.07.17.00",
+   "aliquota": 0,
+   "chave1": "07.170,010,04650",
+   "chave2": "07.170,010,04650"
+  },
+  {
+   "cenario": 127,
+   "codigo_atividade": "07.18",
+   "codigo_sap": "SV.07.18.00",
+   "aliquota": 0,
+   "chave1": "07.180,010,04650",
+   "chave2": "07.180,010,04650"
+  },
+  {
+   "cenario": 128,
+   "codigo_atividade": "07.19",
+   "codigo_sap": "SV.07.19.00",
+   "aliquota": 0,
+   "chave1": "07.190,0150,04650",
+   "chave2": "07.190,0150,04650"
+  },
+  {
+   "cenario": 129,
+   "codigo_atividade": "07.19",
+   "codigo_sap": "SV.07.19.01",
+   "aliquota": 0,
+   "chave1": "07.19000",
+   "chave2": "07.19000"
+  },
+  {
+   "cenario": 130,
+   "codigo_atividade": "07.20",
+   "codigo_sap": "SV.07.20.00",
+   "aliquota": 0,
+   "chave1": "07.200,0150,04650",
+   "chave2": "07.200,0150,04650"
+  },
+  {
+   "cenario": 131,
+   "codigo_atividade": "07.21",
+   "codigo_sap": "SV.07.21.00",
+   "aliquota": 0,
+   "chave1": "07.210,0150,04650",
+   "chave2": "07.210,0150,04650"
+  },
+  {
+   "cenario": 132,
+   "codigo_atividade": "07.21",
+   "codigo_sap": "SV.07.21.01",
+   "aliquota": 0,
+   "chave1": "07.21000",
+   "chave2": "07.21000"
+  },
+  {
+   "cenario": 133,
+   "codigo_atividade": "07.22",
+   "codigo_sap": "SV.07.22.00",
+   "aliquota": 0,
+   "chave1": "07.220,0150,04650",
+   "chave2": "07.220,0150,04650"
+  },
+  {
+   "cenario": 134,
+   "codigo_atividade": "07.22",
+   "codigo_sap": "SV.07.22.01",
+   "aliquota": 0,
+   "chave1": "07.22000",
+   "chave2": "07.22000"
+  },
+  {
+   "cenario": 135,
+   "codigo_atividade": "08.01",
+   "codigo_sap": "SV.08.01.00",
+   "aliquota": 0,
+   "chave1": "08.010,0150,04650",
+   "chave2": "08.010,0150,04650"
+  },
+  {
+   "cenario": 136,
+   "codigo_atividade": "08.01",
+   "codigo_sap": "SV.08.01.01",
+   "aliquota": 0.035,
+   "chave1": "08.010,0150,04650,11",
+   "chave2": "08.010,0150,04650,035"
+  },
+  {
+   "cenario": 137,
+   "codigo_atividade": "08.02",
+   "codigo_sap": "SV.08.02.00",
+   "aliquota": 0,
+   "chave1": "08.020,0150,04650",
+   "chave2": "08.020,0150,04650"
+  },
+  {
+   "cenario": 138,
+   "codigo_atividade": "08.02",
+   "codigo_sap": "SV.08.02.01",
+   "aliquota": 0.035,
+   "chave1": "08.020,0150,04650,11",
+   "chave2": "08.020,0150,04650,035"
+  },
+  {
+   "cenario": 139,
+   "codigo_atividade": "09.01",
+   "codigo_sap": "SV.09.01.00",
+   "aliquota": 0,
+   "chave1": "09.01000",
+   "chave2": "09.01000"
+  },
+  {
+   "cenario": 140,
+   "codigo_atividade": "09.02",
+   "codigo_sap": "SV.09.02.00",
+   "aliquota": 0,
+   "chave1": "09.020,01500",
+   "chave2": "09.020,01500"
+  },
+  {
+   "cenario": 141,
+   "codigo_atividade": "09.03",
+   "codigo_sap": "SV.09.03.00",
+   "aliquota": 0,
+   "chave1": "09.03000",
+   "chave2": "09.03000"
+  },
+  {
+   "cenario": 142,
+   "codigo_atividade": "10.01",
+   "codigo_sap": "SV.10.01.00",
+   "aliquota": 0,
+   "chave1": "10.010,01500",
+   "chave2": "10.010,01500"
+  },
+  {
+   "cenario": 143,
+   "codigo_atividade": "10.02",
+   "codigo_sap": "SV.10.02.00",
+   "aliquota": 0,
+   "chave1": "10.020,01500",
+   "chave2": "10.020,01500"
+  },
+  {
+   "cenario": 144,
+   "codigo_atividade": "10.02",
+   "codigo_sap": "SV.10.02.01",
+   "aliquota": 0,
+   "chave1": "10.02000",
+   "chave2": "10.02000"
+  },
+  {
+   "cenario": 145,
+   "codigo_atividade": "10.03",
+   "codigo_sap": "SV.10.03.00",
+   "aliquota": 0,
+   "chave1": "10.030,01500",
+   "chave2": "10.030,01500"
+  },
+  {
+   "cenario": 146,
+   "codigo_atividade": "10.04",
+   "codigo_sap": "SV.10.04.00",
+   "aliquota": 0,
+   "chave1": "10.040,01500",
+   "chave2": "10.040,01500"
+  },
+  {
+   "cenario": 147,
+   "codigo_atividade": "10.05",
+   "codigo_sap": "SV.10.05.00",
+   "aliquota": 0,
+   "chave1": "10.050,01500",
+   "chave2": "10.050,01500"
+  },
+  {
+   "cenario": 148,
+   "codigo_atividade": "10.05",
+   "codigo_sap": "SV.10.05.01",
+   "aliquota": 0,
+   "chave1": "10.05000",
+   "chave2": "10.05000"
+  },
+  {
+   "cenario": 149,
+   "codigo_atividade": "10.06",
+   "codigo_sap": "SV.10.06.00",
+   "aliquota": 0,
+   "chave1": "10.06000",
+   "chave2": "10.06000"
+  },
+  {
+   "cenario": 150,
+   "codigo_atividade": "10.07",
+   "codigo_sap": "SV.10.07.00",
+   "aliquota": 0,
+   "chave1": "10.070,01500",
+   "chave2": "10.070,01500"
+  },
+  {
+   "cenario": 151,
+   "codigo_atividade": "10.08",
+   "codigo_sap": "SV.10.08.00",
+   "aliquota": 0,
+   "chave1": "10.080,01500",
+   "chave2": "10.080,01500"
+  },
+  {
+   "cenario": 152,
+   "codigo_atividade": "10.08",
+   "codigo_sap": "SV.10.08.01",
+   "aliquota": 0,
+   "chave1": "10.08000",
+   "chave2": "10.08000"
+  },
+  {
+   "cenario": 153,
+   "codigo_atividade": "10.09",
+   "codigo_sap": "SV.10.09.00",
+   "aliquota": 0,
+   "chave1": "10.090,01500",
+   "chave2": "10.090,01500"
+  },
+  {
+   "cenario": 154,
+   "codigo_atividade": "10.09",
+   "codigo_sap": "SV.10.09.01",
+   "aliquota": 0,
+   "chave1": "10.090,0150,04650",
+   "chave2": "10.090,0150,04650"
+  },
+  {
+   "cenario": 155,
+   "codigo_atividade": "10.10",
+   "codigo_sap": "SV.10.10.00",
+   "aliquota": 0,
+   "chave1": "10.100,01500",
+   "chave2": "10.100,01500"
+  },
+  {
+   "cenario": 156,
+   "codigo_atividade": "11.01",
+   "codigo_sap": "SV.11.01.00",
+   "aliquota": 0,
+   "chave1": "11.01000",
+   "chave2": "11.01000"
+  },
+  {
+   "cenario": 157,
+   "codigo_atividade": "11.02",
+   "codigo_sap": "SV.11.02.00",
+   "aliquota": 0.035,
+   "chave1": "11.020,010,04650,11",
+   "chave2": "11.020,010,04650,035"
+  },
+  {
+   "cenario": 158,
+   "codigo_atividade": "11.02",
+   "codigo_sap": "SV.11.02.01",
+   "aliquota": 0,
+   "chave1": "11.020,010,04650",
+   "chave2": "11.020,010,04650"
+  },
+  {
+   "cenario": 159,
+   "codigo_atividade": "11.03",
+   "codigo_sap": "SV.11.03.00",
+   "aliquota": 0,
+   "chave1": "11.030,010,04650",
+   "chave2": "11.030,010,04650"
+  },
+  {
+   "cenario": 160,
+   "codigo_atividade": "11.03",
+   "codigo_sap": "SV.11.03.01",
+   "aliquota": 0.035,
+   "chave1": "11.030,010,04650,11",
+   "chave2": "11.030,010,04650,035"
+  },
+  {
+   "cenario": 161,
+   "codigo_atividade": "11.04",
+   "codigo_sap": "SV.11.04.00",
+   "aliquota": 0,
+   "chave1": "11.04000",
+   "chave2": "11.04000"
+  },
+  {
+   "cenario": 162,
+   "codigo_atividade": "11.04",
+   "codigo_sap": "SV.11.04.01",
+   "aliquota": 0.035,
+   "chave1": "11.04000,11",
+   "chave2": "11.04000,035"
+  },
+  {
+   "cenario": 163,
+   "codigo_atividade": "11.05",
+   "codigo_sap": "SV.11.05.00",
+   "aliquota": 0,
+   "chave1": "11.050,010,04650",
+   "chave2": "11.050,010,04650"
+  },
+  {
+   "cenario": 164,
+   "codigo_atividade": "12.01",
+   "codigo_sap": "SV.12.01.00",
+   "aliquota": 0,
+   "chave1": "12.01000",
+   "chave2": "12.01000"
+  },
+  {
+   "cenario": 165,
+   "codigo_atividade": "12.02",
+   "codigo_sap": "SV.12.02.00",
+   "aliquota": 0,
+   "chave1": "12.02000",
+   "chave2": "12.02000"
+  },
+  {
+   "cenario": 166,
+   "codigo_atividade": "12.03",
+   "codigo_sap": "SV.12.03.00",
+   "aliquota": 0,
+   "chave1": "12.03000",
+   "chave2": "12.03000"
+  },
+  {
+   "cenario": 167,
+   "codigo_atividade": "12.04",
+   "codigo_sap": "SV.12.04.00",
+   "aliquota": 0,
+   "chave1": "12.04000",
+   "chave2": "12.04000"
+  },
+  {
+   "cenario": 168,
+   "codigo_atividade": "12.05",
+   "codigo_sap": "SV.12.05.00",
+   "aliquota": 0,
+   "chave1": "12.05000",
+   "chave2": "12.05000"
+  },
+  {
+   "cenario": 169,
+   "codigo_atividade": "12.06",
+   "codigo_sap": "SV.12.06.00",
+   "aliquota": 0,
+   "chave1": "12.06000",
+   "chave2": "12.06000"
+  },
+  {
+   "cenario": 170,
+   "codigo_atividade": "12.07",
+   "codigo_sap": "SV.12.07.00",
+   "aliquota": 0,
+   "chave1": "12.07000",
+   "chave2": "12.07000"
+  },
+  {
+   "cenario": 171,
+   "codigo_atividade": "12.08",
+   "codigo_sap": "SV.12.08.00",
+   "aliquota": 0,
+   "chave1": "12.08000",
+   "chave2": "12.08000"
+  },
+  {
+   "cenario": 172,
+   "codigo_atividade": "12.08",
+   "codigo_sap": "SV.12.08.01",
+   "aliquota": 0.035,
+   "chave1": "12.08000,11",
+   "chave2": "12.08000,035"
+  },
+  {
+   "cenario": 173,
+   "codigo_atividade": "12.09",
+   "codigo_sap": "SV.12.09.00",
+   "aliquota": 0,
+   "chave1": "12.09000",
+   "chave2": "12.09000"
+  },
+  {
+   "cenario": 174,
+   "codigo_atividade": "12.10",
+   "codigo_sap": "SV.12.10.00",
+   "aliquota": 0,
+   "chave1": "12.10000",
+   "chave2": "12.10000"
+  },
+  {
+   "cenario": 175,
+   "codigo_atividade": "12.11",
+   "codigo_sap": "SV.12.11.00",
+   "aliquota": 0,
+   "chave1": "12.11000",
+   "chave2": "12.11000"
+  },
+  {
+   "cenario": 176,
+   "codigo_atividade": "12.12",
+   "codigo_sap": "SV.12.12.00",
+   "aliquota": 0,
+   "chave1": "12.12000",
+   "chave2": "12.12000"
+  },
+  {
+   "cenario": 177,
+   "codigo_atividade": "12.13",
+   "codigo_sap": "SV.12.13.00",
+   "aliquota": 0,
+   "chave1": "12.13000",
+   "chave2": "12.13000"
+  },
+  {
+   "cenario": 178,
+   "codigo_atividade": "12.14",
+   "codigo_sap": "SV.12.14.00",
+   "aliquota": 0,
+   "chave1": "12.14000",
+   "chave2": "12.14000"
+  },
+  {
+   "cenario": 179,
+   "codigo_atividade": "12.15",
+   "codigo_sap": "SV.12.15.00",
+   "aliquota": 0,
+   "chave1": "12.15000",
+   "chave2": "12.15000"
+  },
+  {
+   "cenario": 180,
+   "codigo_atividade": "12.16",
+   "codigo_sap": "SV.12.16.00",
+   "aliquota": 0,
+   "chave1": "12.16000",
+   "chave2": "12.16000"
+  },
+  {
+   "cenario": 181,
+   "codigo_atividade": "12.17",
+   "codigo_sap": "SV.12.17.00",
+   "aliquota": 0,
+   "chave1": "12.17000",
+   "chave2": "12.17000"
+  },
+  {
+   "cenario": 182,
+   "codigo_atividade": "13.02",
+   "codigo_sap": "SV.13.02.00",
+   "aliquota": 0,
+   "chave1": "13.02000",
+   "chave2": "13.02000"
+  },
+  {
+   "cenario": 183,
+   "codigo_atividade": "13.03",
+   "codigo_sap": "SV.13.03.00",
+   "aliquota": 0,
+   "chave1": "13.03000",
+   "chave2": "13.03000"
+  },
+  {
+   "cenario": 184,
+   "codigo_atividade": "13.04",
+   "codigo_sap": "SV.13.04.00",
+   "aliquota": 0,
+   "chave1": "13.04000",
+   "chave2": "13.04000"
+  },
+  {
+   "cenario": 185,
+   "codigo_atividade": "13.05",
+   "codigo_sap": "SV.13.05.00",
+   "aliquota": 0,
+   "chave1": "13.05000",
+   "chave2": "13.05000"
+  },
+  {
+   "cenario": 186,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.00",
+   "aliquota": 0,
+   "chave1": "14.0100,04650",
+   "chave2": "14.0100,04650"
+  },
+  {
+   "cenario": 187,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.01",
+   "aliquota": 0,
+   "chave1": "14.010,010,04650",
+   "chave2": "14.010,010,04650"
+  },
+  {
+   "cenario": 188,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.02",
+   "aliquota": 0.035,
+   "chave1": "14.0100,04650,11",
+   "chave2": "14.0100,04650,035"
+  },
+  {
+   "cenario": 189,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.03",
+   "aliquota": 0.035,
+   "chave1": "14.010,010,04650,11",
+   "chave2": "14.010,010,04650,035"
+  },
+  {
+   "cenario": 190,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.04",
+   "aliquota": 0,
+   "chave1": "14.01000",
+   "chave2": "14.01000"
+  },
+  {
+   "cenario": 191,
+   "codigo_atividade": "14.01",
+   "codigo_sap": "SV.14.01.05",
+   "aliquota": 0.035,
+   "chave1": "14.01000,11",
+   "chave2": "14.01000,035"
+  },
+  {
+   "cenario": 192,
+   "codigo_atividade": "14.02",
+   "codigo_sap": "SV.14.02.00",
+   "aliquota": 0,
+   "chave1": "14.02000",
+   "chave2": "14.02000"
+  },
+  {
+   "cenario": 193,
+   "codigo_atividade": "14.02",
+   "codigo_sap": "SV.14.02.01",
+   "aliquota": 0.035,
+   "chave1": "14.02000,11",
+   "chave2": "14.02000,035"
+  },
+  {
+   "cenario": 194,
+   "codigo_atividade": "14.03",
+   "codigo_sap": "SV.14.03.00",
+   "aliquota": 0,
+   "chave1": "14.03000",
+   "chave2": "14.03000"
+  },
+  {
+   "cenario": 195,
+   "codigo_atividade": "14.04",
+   "codigo_sap": "SV.14.04.00",
+   "aliquota": 0,
+   "chave1": "14.04000",
+   "chave2": "14.04000"
+  },
+  {
+   "cenario": 196,
+   "codigo_atividade": "14.05",
+   "codigo_sap": "SV.14.05.00",
+   "aliquota": 0,
+   "chave1": "14.05000",
+   "chave2": "14.05000"
+  },
+  {
+   "cenario": 197,
+   "codigo_atividade": "14.05",
+   "codigo_sap": "SV.14.05.01",
+   "aliquota": 0.035,
+   "chave1": "14.05000,11",
+   "chave2": "14.05000,035"
+  },
+  {
+   "cenario": 198,
+   "codigo_atividade": "14.06",
+   "codigo_sap": "SV.14.06.00",
+   "aliquota": 0,
+   "chave1": "14.06000",
+   "chave2": "14.06000"
+  },
+  {
+   "cenario": 199,
+   "codigo_atividade": "14.06",
+   "codigo_sap": "SV.14.06.01",
+   "aliquota": 0.035,
+   "chave1": "14.06000,11",
+   "chave2": "14.06000,035"
+  },
+  {
+   "cenario": 200,
+   "codigo_atividade": "14.08",
+   "codigo_sap": "SV.14.08.00",
+   "aliquota": 0,
+   "chave1": "14.08000",
+   "chave2": "14.08000"
+  },
+  {
+   "cenario": 201,
+   "codigo_atividade": "14.08",
+   "codigo_sap": "SV.14.08.01",
+   "aliquota": 0.035,
+   "chave1": "14.08000,11",
+   "chave2": "14.08000,035"
+  },
+  {
+   "cenario": 202,
+   "codigo_atividade": "14.09",
+   "codigo_sap": "SV.14.09.00",
+   "aliquota": 0,
+   "chave1": "14.09000",
+   "chave2": "14.09000"
+  },
+  {
+   "cenario": 203,
+   "codigo_atividade": "14.09",
+   "codigo_sap": "SV.14.09.01",
+   "aliquota": 0.035,
+   "chave1": "14.09000,11",
+   "chave2": "14.09000,035"
+  },
+  {
+   "cenario": 204,
+   "codigo_atividade": "14.10",
+   "codigo_sap": "SV.14.10.00",
+   "aliquota": 0,
+   "chave1": "14.10000",
+   "chave2": "14.10000"
+  },
+  {
+   "cenario": 205,
+   "codigo_atividade": "14.10",
+   "codigo_sap": "SV.14.10.01",
+   "aliquota": 0.035,
+   "chave1": "14.10000,11",
+   "chave2": "14.10000,035"
+  },
+  {
+   "cenario": 206,
+   "codigo_atividade": "14.11",
+   "codigo_sap": "SV.14.11.00",
+   "aliquota": 0,
+   "chave1": "14.11000",
+   "chave2": "14.11000"
+  },
+  {
+   "cenario": 207,
+   "codigo_atividade": "14.11",
+   "codigo_sap": "SV.14.11.01",
+   "aliquota": 0.035,
+   "chave1": "14.11000,11",
+   "chave2": "14.11000,035"
+  },
+  {
+   "cenario": 208,
+   "codigo_atividade": "14.12",
+   "codigo_sap": "SV.14.12.00",
+   "aliquota": 0,
+   "chave1": "14.12000",
+   "chave2": "14.12000"
+  },
+  {
+   "cenario": 209,
+   "codigo_atividade": "14.12",
+   "codigo_sap": "SV.14.12.01",
+   "aliquota": 0.035,
+   "chave1": "14.12000,11",
+   "chave2": "14.12000,035"
+  },
+  {
+   "cenario": 210,
+   "codigo_atividade": "14.13",
+   "codigo_sap": "SV.14.13.00",
+   "aliquota": 0,
+   "chave1": "14.13000",
+   "chave2": "14.13000"
+  },
+  {
+   "cenario": 211,
+   "codigo_atividade": "14.14",
+   "codigo_sap": "SV.14.14.00",
+   "aliquota": 0,
+   "chave1": "14.14000",
+   "chave2": "14.14000"
+  },
+  {
+   "cenario": 212,
+   "codigo_atividade": "15.01",
+   "codigo_sap": "SV.15.01.00",
+   "aliquota": 0,
+   "chave1": "15.010,0150,04650",
+   "chave2": "15.010,0150,04650"
+  },
+  {
+   "cenario": 213,
+   "codigo_atividade": "15.02",
+   "codigo_sap": "SV.15.02.00",
+   "aliquota": 0,
+   "chave1": "15.020,0150,04650",
+   "chave2": "15.020,0150,04650"
+  },
+  {
+   "cenario": 214,
+   "codigo_atividade": "15.03",
+   "codigo_sap": "SV.15.03.00",
+   "aliquota": 0.035,
+   "chave1": "15.03000",
+   "chave2": "15.03000,035"
+  },
+  {
+   "cenario": 215,
+   "codigo_atividade": "15.03",
+   "codigo_sap": "SV.15.03.01",
+   "aliquota": 0,
+   "chave1": "15.0300,04650",
+   "chave2": "15.0300,04650"
+  },
+  {
+   "cenario": 216,
+   "codigo_atividade": "15.04",
+   "codigo_sap": "SV.15.04.00",
+   "aliquota": 0,
+   "chave1": "15.040,0150,04650",
+   "chave2": "15.040,0150,04650"
+  },
+  {
+   "cenario": 217,
+   "codigo_atividade": "15.05",
+   "codigo_sap": "SV.15.05.00",
+   "aliquota": 0,
+   "chave1": "15.050,0150,04650",
+   "chave2": "15.050,0150,04650"
+  },
+  {
+   "cenario": 218,
+   "codigo_atividade": "15.06",
+   "codigo_sap": "SV.15.06.00",
+   "aliquota": 0,
+   "chave1": "15.06000",
+   "chave2": "15.06000"
+  },
+  {
+   "cenario": 219,
+   "codigo_atividade": "15.06",
+   "codigo_sap": "SV.15.06.01",
+   "aliquota": 0,
+   "chave1": "15.060,0150,04650",
+   "chave2": "15.060,0150,04650"
+  },
+  {
+   "cenario": 220,
+   "codigo_atividade": "15.07",
+   "codigo_sap": "SV.15.07.00",
+   "aliquota": 0,
+   "chave1": "15.07000",
+   "chave2": "15.07000"
+  },
+  {
+   "cenario": 221,
+   "codigo_atividade": "15.08",
+   "codigo_sap": "SV.15.08.00",
+   "aliquota": 0,
+   "chave1": "15.080,0150,04650",
+   "chave2": "15.080,0150,04650"
+  },
+  {
+   "cenario": 222,
+   "codigo_atividade": "15.09",
+   "codigo_sap": "SV.15.09.00",
+   "aliquota": 0,
+   "chave1": "15.090,0150,04650",
+   "chave2": "15.090,0150,04650"
+  },
+  {
+   "cenario": 223,
+   "codigo_atividade": "15.10",
+   "codigo_sap": "SV.15.10.00",
+   "aliquota": 0,
+   "chave1": "15.100,0150,04650",
+   "chave2": "15.100,0150,04650"
+  },
+  {
+   "cenario": 224,
+   "codigo_atividade": "15.10",
+   "codigo_sap": "SV.15.10.01",
+   "aliquota": 0,
+   "chave1": "15.10000",
+   "chave2": "15.10000"
+  },
+  {
+   "cenario": 225,
+   "codigo_atividade": "15.11",
+   "codigo_sap": "SV.15.11.00",
+   "aliquota": 0,
+   "chave1": "15.110,0150,04650",
+   "chave2": "15.110,0150,04650"
+  },
+  {
+   "cenario": 226,
+   "codigo_atividade": "15.12",
+   "codigo_sap": "SV.15.12.00",
+   "aliquota": 0,
+   "chave1": "15.120,0150,04650",
+   "chave2": "15.120,0150,04650"
+  },
+  {
+   "cenario": 227,
+   "codigo_atividade": "15.13",
+   "codigo_sap": "SV.15.13.00",
+   "aliquota": 0,
+   "chave1": "15.130,0150,04650",
+   "chave2": "15.130,0150,04650"
+  },
+  {
+   "cenario": 228,
+   "codigo_atividade": "15.14",
+   "codigo_sap": "SV.15.14.00",
+   "aliquota": 0,
+   "chave1": "15.140,0150,04650",
+   "chave2": "15.140,0150,04650"
+  },
+  {
+   "cenario": 229,
+   "codigo_atividade": "15.15",
+   "codigo_sap": "SV.15.15.00",
+   "aliquota": 0,
+   "chave1": "15.150,0150,04650",
+   "chave2": "15.150,0150,04650"
+  },
+  {
+   "cenario": 230,
+   "codigo_atividade": "15.16",
+   "codigo_sap": "SV.15.16.00",
+   "aliquota": 0,
+   "chave1": "15.160,0150,04650",
+   "chave2": "15.160,0150,04650"
+  },
+  {
+   "cenario": 231,
+   "codigo_atividade": "15.17",
+   "codigo_sap": "SV.15.17.00",
+   "aliquota": 0,
+   "chave1": "15.170,0150,04650",
+   "chave2": "15.170,0150,04650"
+  },
+  {
+   "cenario": 232,
+   "codigo_atividade": "15.18",
+   "codigo_sap": "SV.15.18.00",
+   "aliquota": 0,
+   "chave1": "15.180,0150,04650",
+   "chave2": "15.180,0150,04650"
+  },
+  {
+   "cenario": 233,
+   "codigo_atividade": "16.01",
+   "codigo_sap": "SV.16.01.00",
+   "aliquota": 0,
+   "chave1": "16.01000",
+   "chave2": "16.01000"
+  },
+  {
+   "cenario": 234,
+   "codigo_atividade": "16.01",
+   "codigo_sap": "SV.16.01.01",
+   "aliquota": 0.035,
+   "chave1": "16.01000,11",
+   "chave2": "16.01000,035"
+  },
+  {
+   "cenario": 235,
+   "codigo_atividade": "16.01",
+   "codigo_sap": "SV.16.01.02",
+   "aliquota": 0,
+   "chave1": "16.010,01500",
+   "chave2": "16.010,01500"
+  },
+  {
+   "cenario": 236,
+   "codigo_atividade": "16.02",
+   "codigo_sap": "SV.16.02.00",
+   "aliquota": 0,
+   "chave1": "16.02000",
+   "chave2": "16.02000"
+  },
+  {
+   "cenario": 237,
+   "codigo_atividade": "16.02",
+   "codigo_sap": "SV.16.02.01",
+   "aliquota": 0,
+   "chave1": "16.020,01500",
+   "chave2": "16.020,01500"
+  },
+  {
+   "cenario": 238,
+   "codigo_atividade": "17.01",
+   "codigo_sap": "SV.17.01.00",
+   "aliquota": 0,
+   "chave1": "17.01000",
+   "chave2": "17.01000"
+  },
+  {
+   "cenario": 239,
+   "codigo_atividade": "17.01",
+   "codigo_sap": "SV.17.01.01",
+   "aliquota": 0.035,
+   "chave1": "17.01000,11",
+   "chave2": "17.01000,035"
+  },
+  {
+   "cenario": 240,
+   "codigo_atividade": "17.01",
+   "codigo_sap": "SV.17.01.02",
+   "aliquota": 0,
+   "chave1": "17.010,0150,04650",
+   "chave2": "17.010,0150,04650"
+  },
+  {
+   "cenario": 241,
+   "codigo_atividade": "17.01",
+   "codigo_sap": "SV.17.01.03",
+   "aliquota": 0.035,
+   "chave1": "17.010,0150,04650,11",
+   "chave2": "17.010,0150,04650,035"
+  },
+  {
+   "cenario": 242,
+   "codigo_atividade": "17.02",
+   "codigo_sap": "SV.17.02.00",
+   "aliquota": 0,
+   "chave1": "17.020,0150,04650",
+   "chave2": "17.020,0150,04650"
+  },
+  {
+   "cenario": 243,
+   "codigo_atividade": "17.02",
+   "codigo_sap": "SV.17.02.01",
+   "aliquota": 0.035,
+   "chave1": "17.020,0150,04650,11",
+   "chave2": "17.020,0150,04650,035"
+  },
+  {
+   "cenario": 244,
+   "codigo_atividade": "17.03",
+   "codigo_sap": "SV.17.03.00",
+   "aliquota": 0,
+   "chave1": "17.030,0150,04650",
+   "chave2": "17.030,0150,04650"
+  },
+  {
+   "cenario": 245,
+   "codigo_atividade": "17.04",
+   "codigo_sap": "SV.17.04.00",
+   "aliquota": 0,
+   "chave1": "17.040,01500",
+   "chave2": "17.040,01500"
+  },
+  {
+   "cenario": 246,
+   "codigo_atividade": "17.04",
+   "codigo_sap": "SV.17.04.01",
+   "aliquota": 0,
+   "chave1": "17.040,0150,04650",
+   "chave2": "17.040,0150,04650"
+  },
+  {
+   "cenario": 247,
+   "codigo_atividade": "17.05",
+   "codigo_sap": "SV.17.05.00",
+   "aliquota": 0.035,
+   "chave1": "17.050,010,04650,11",
+   "chave2": "17.050,010,04650,035"
+  },
+  {
+   "cenario": 248,
+   "codigo_atividade": "17.06",
+   "codigo_sap": "SV.17.06.00",
+   "aliquota": 0,
+   "chave1": "17.060,01500",
+   "chave2": "17.060,01500"
+  },
+  {
+   "cenario": 249,
+   "codigo_atividade": "17.08",
+   "codigo_sap": "SV.17.08.00",
+   "aliquota": 0,
+   "chave1": "17.08000",
+   "chave2": "17.08000"
+  },
+  {
+   "cenario": 250,
+   "codigo_atividade": "17.09",
+   "codigo_sap": "SV.17.09.00",
+   "aliquota": 0,
+   "chave1": "17.090,0150,04650",
+   "chave2": "17.090,0150,04650"
+  },
+  {
+   "cenario": 251,
+   "codigo_atividade": "17.10",
+   "codigo_sap": "SV.17.10.00",
+   "aliquota": 0,
+   "chave1": "17.100,0150,04650",
+   "chave2": "17.100,0150,04650"
+  },
+  {
+   "cenario": 252,
+   "codigo_atividade": "17.11",
+   "codigo_sap": "SV.17.11.00",
+   "aliquota": 0,
+   "chave1": "17.110,0150,04650",
+   "chave2": "17.110,0150,04650"
+  },
+  {
+   "cenario": 253,
+   "codigo_atividade": "17.12",
+   "codigo_sap": "SV.17.12.00",
+   "aliquota": 0,
+   "chave1": "17.120,0150,04650",
+   "chave2": "17.120,0150,04650"
+  },
+  {
+   "cenario": 254,
+   "codigo_atividade": "17.13",
+   "codigo_sap": "SV.17.13.00",
+   "aliquota": 0,
+   "chave1": "17.130,0150,04650",
+   "chave2": "17.130,0150,04650"
+  },
+  {
+   "cenario": 255,
+   "codigo_atividade": "17.14",
+   "codigo_sap": "SV.17.14.00",
+   "aliquota": 0,
+   "chave1": "17.140,0150,04650",
+   "chave2": "17.140,0150,04650"
+  },
+  {
+   "cenario": 256,
+   "codigo_atividade": "17.15",
+   "codigo_sap": "SV.17.15.00",
+   "aliquota": 0,
+   "chave1": "17.150,0150,04650",
+   "chave2": "17.150,0150,04650"
+  },
+  {
+   "cenario": 257,
+   "codigo_atividade": "17.16",
+   "codigo_sap": "SV.17.16.00",
+   "aliquota": 0,
+   "chave1": "17.160,0150,04650",
+   "chave2": "17.160,0150,04650"
+  },
+  {
+   "cenario": 258,
+   "codigo_atividade": "17.16",
+   "codigo_sap": "SV.17.16.01",
+   "aliquota": 0.035,
+   "chave1": "17.160,0150,04650,11",
+   "chave2": "17.160,0150,04650,035"
+  },
+  {
+   "cenario": 259,
+   "codigo_atividade": "17.17",
+   "codigo_sap": "SV.17.17.00",
+   "aliquota": 0,
+   "chave1": "17.170,0150,04650",
+   "chave2": "17.170,0150,04650"
+  },
+  {
+   "cenario": 260,
+   "codigo_atividade": "17.18",
+   "codigo_sap": "SV.17.18.00",
+   "aliquota": 0,
+   "chave1": "17.180,0150,04650",
+   "chave2": "17.180,0150,04650"
+  },
+  {
+   "cenario": 261,
+   "codigo_atividade": "17.19",
+   "codigo_sap": "SV.17.19.00",
+   "aliquota": 0,
+   "chave1": "17.190,0150,04650",
+   "chave2": "17.190,0150,04650"
+  },
+  {
+   "cenario": 262,
+   "codigo_atividade": "17.19",
+   "codigo_sap": "SV.17.19.01",
+   "aliquota": 0.035,
+   "chave1": "17.190,0150,04650,11",
+   "chave2": "17.190,0150,04650,035"
+  },
+  {
+   "cenario": 263,
+   "codigo_atividade": "17.20",
+   "codigo_sap": "SV.17.20.00",
+   "aliquota": 0,
+   "chave1": "17.200,0150,04650",
+   "chave2": "17.200,0150,04650"
+  },
+  {
+   "cenario": 264,
+   "codigo_atividade": "17.21",
+   "codigo_sap": "SV.17.21.00",
+   "aliquota": 0,
+   "chave1": "17.210,0150,04650",
+   "chave2": "17.210,0150,04650"
+  },
+  {
+   "cenario": 265,
+   "codigo_atividade": "17.22",
+   "codigo_sap": "SV.17.22.00",
+   "aliquota": 0,
+   "chave1": "17.22000",
+   "chave2": "17.22000"
+  },
+  {
+   "cenario": 266,
+   "codigo_atividade": "17.23",
+   "codigo_sap": "SV.17.23.00",
+   "aliquota": 0,
+   "chave1": "17.230,0150,04650",
+   "chave2": "17.230,0150,04650"
+  },
+  {
+   "cenario": 267,
+   "codigo_atividade": "17.23",
+   "codigo_sap": "SV.17.23.01",
+   "aliquota": 0,
+   "chave1": "17.23000",
+   "chave2": "17.23000"
+  },
+  {
+   "cenario": 268,
+   "codigo_atividade": "17.24",
+   "codigo_sap": "SV.17.24.00",
+   "aliquota": 0,
+   "chave1": "17.240,0150,04650",
+   "chave2": "17.240,0150,04650"
+  },
+  {
+   "cenario": 269,
+   "codigo_atividade": "17.25",
+   "codigo_sap": "SV.17.25.00",
+   "aliquota": 0,
+   "chave1": "17.25000",
+   "chave2": "17.25000"
+  },
+  {
+   "cenario": 270,
+   "codigo_atividade": "18.01",
+   "codigo_sap": "SV.18.01.00",
+   "aliquota": 0,
+   "chave1": "18.010,0150,04650",
+   "chave2": "18.010,0150,04650"
+  },
+  {
+   "cenario": 271,
+   "codigo_atividade": "19.01",
+   "codigo_sap": "SV.19.01.00",
+   "aliquota": 0,
+   "chave1": "19.010,01500",
+   "chave2": "19.010,01500"
+  },
+  {
+   "cenario": 272,
+   "codigo_atividade": "20.01",
+   "codigo_sap": "SV.20.01.00",
+   "aliquota": 0,
+   "chave1": "20.010,0150,04650",
+   "chave2": "20.010,0150,04650"
+  },
+  {
+   "cenario": 273,
+   "codigo_atividade": "20.01",
+   "codigo_sap": "SV.20.01.01",
+   "aliquota": 0,
+   "chave1": "20.01000",
+   "chave2": "20.01000"
+  },
+  {
+   "cenario": 274,
+   "codigo_atividade": "20.02",
+   "codigo_sap": "SV.20.02.00",
+   "aliquota": 0,
+   "chave1": "20.020,0150,04650",
+   "chave2": "20.020,0150,04650"
+  },
+  {
+   "cenario": 275,
+   "codigo_atividade": "20.02",
+   "codigo_sap": "SV.20.02.01",
+   "aliquota": 0,
+   "chave1": "20.02000",
+   "chave2": "20.02000"
+  },
+  {
+   "cenario": 276,
+   "codigo_atividade": "20.03",
+   "codigo_sap": "SV.20.03.00",
+   "aliquota": 0,
+   "chave1": "20.03000",
+   "chave2": "20.03000"
+  },
+  {
+   "cenario": 277,
+   "codigo_atividade": "20.03",
+   "codigo_sap": "SV.20.03.01",
+   "aliquota": 0,
+   "chave1": "20.030,0150,04650",
+   "chave2": "20.030,0150,04650"
+  },
+  {
+   "cenario": 278,
+   "codigo_atividade": "21.01",
+   "codigo_sap": "SV.21.01.00",
+   "aliquota": 0,
+   "chave1": "21.010,0150,04650",
+   "chave2": "21.010,0150,04650"
+  },
+  {
+   "cenario": 279,
+   "codigo_atividade": "22.01",
+   "codigo_sap": "SV.22.01.00",
+   "aliquota": 0,
+   "chave1": "22.010,0150,04650",
+   "chave2": "22.010,0150,04650"
+  },
+  {
+   "cenario": 280,
+   "codigo_atividade": "23.01",
+   "codigo_sap": "SV.23.01.00",
+   "aliquota": 0,
+   "chave1": "23.010,0150,04650",
+   "chave2": "23.010,0150,04650"
+  },
+  {
+   "cenario": 281,
+   "codigo_atividade": "24.01",
+   "codigo_sap": "SV.24.01.00",
+   "aliquota": 0,
+   "chave1": "24.01000",
+   "chave2": "24.01000"
+  },
+  {
+   "cenario": 282,
+   "codigo_atividade": "25.01",
+   "codigo_sap": "SV.25.01.00",
+   "aliquota": 0,
+   "chave1": "25.01000",
+   "chave2": "25.01000"
+  },
+  {
+   "cenario": 283,
+   "codigo_atividade": "25.02",
+   "codigo_sap": "SV.25.02.00",
+   "aliquota": 0,
+   "chave1": "25.02000",
+   "chave2": "25.02000"
+  },
+  {
+   "cenario": 284,
+   "codigo_atividade": "25.03",
+   "codigo_sap": "SV.25.03.00",
+   "aliquota": 0,
+   "chave1": "25.030,01500",
+   "chave2": "25.030,01500"
+  },
+  {
+   "cenario": 285,
+   "codigo_atividade": "25.04",
+   "codigo_sap": "SV.25.04.00",
+   "aliquota": 0,
+   "chave1": "25.040,010,04650",
+   "chave2": "25.040,010,04650"
+  },
+  {
+   "cenario": 286,
+   "codigo_atividade": "25.05",
+   "codigo_sap": "SV.25.05.00",
+   "aliquota": 0,
+   "chave1": "25.05000",
+   "chave2": "25.05000"
+  },
+  {
+   "cenario": 287,
+   "codigo_atividade": "26.01",
+   "codigo_sap": "SV.26.01.00",
+   "aliquota": 0,
+   "chave1": "26.0100,04650",
+   "chave2": "26.0100,04650"
+  },
+  {
+   "cenario": 288,
+   "codigo_atividade": "26.01",
+   "codigo_sap": "SV.26.01.01",
+   "aliquota": 0,
+   "chave1": "26.010,010,04650",
+   "chave2": "26.010,010,04650"
+  },
+  {
+   "cenario": 289,
+   "codigo_atividade": "27.01",
+   "codigo_sap": "SV.27.01.00",
+   "aliquota": 0,
+   "chave1": "27.010,0150,04650",
+   "chave2": "27.010,0150,04650"
+  },
+  {
+   "cenario": 290,
+   "codigo_atividade": "28.01",
+   "codigo_sap": "SV.28.01.00",
+   "aliquota": 0,
+   "chave1": "28.010,0150,04650",
+   "chave2": "28.010,0150,04650"
+  },
+  {
+   "cenario": 291,
+   "codigo_atividade": "29.01",
+   "codigo_sap": "SV.29.01.00",
+   "aliquota": 0,
+   "chave1": "29.010,0150,04650",
+   "chave2": "29.010,0150,04650"
+  },
+  {
+   "cenario": 292,
+   "codigo_atividade": "30.01",
+   "codigo_sap": "SV.30.01.00",
+   "aliquota": 0,
+   "chave1": "30.010,0150,04650",
+   "chave2": "30.010,0150,04650"
+  },
+  {
+   "cenario": 293,
+   "codigo_atividade": "31.01",
+   "codigo_sap": "SV.31.01.00",
+   "aliquota": 0,
+   "chave1": "31.010,0150,04650",
+   "chave2": "31.010,0150,04650"
+  },
+  {
+   "cenario": 294,
+   "codigo_atividade": "32.01",
+   "codigo_sap": "SV.32.01.00",
+   "aliquota": 0,
+   "chave1": "32.010,0150,04650",
+   "chave2": "32.010,0150,04650"
+  },
+  {
+   "cenario": 295,
+   "codigo_atividade": "32.01",
+   "codigo_sap": "SV.32.01.01",
+   "aliquota": 0.035,
+   "chave1": "32.010,0150,04650,11",
+   "chave2": "32.010,0150,04650,035"
+  },
+  {
+   "cenario": 296,
+   "codigo_atividade": "33.01",
+   "codigo_sap": "SV.33.01.00",
+   "aliquota": 0,
+   "chave1": "33.010,0150,04650",
+   "chave2": "33.010,0150,04650"
+  },
+  {
+   "cenario": 297,
+   "codigo_atividade": "34.01",
+   "codigo_sap": "SV.34.01.00",
+   "aliquota": 0,
+   "chave1": "34.010,0150,04650",
+   "chave2": "34.010,0150,04650"
+  },
+  {
+   "cenario": 298,
+   "codigo_atividade": "35.01",
+   "codigo_sap": "SV.35.01.00",
+   "aliquota": 0,
+   "chave1": "35.010,0150,04650",
+   "chave2": "35.010,0150,04650"
+  },
+  {
+   "cenario": 299,
+   "codigo_atividade": "35.01",
+   "codigo_sap": "SV.35.01.01",
+   "aliquota": 0.035,
+   "chave1": "35.010,0150,04650,11",
+   "chave2": "35.010,0150,04650,035"
+  },
+  {
+   "cenario": 300,
+   "codigo_atividade": "36.01",
+   "codigo_sap": "SV.36.01.00",
+   "aliquota": 0,
+   "chave1": "36.010,0150,04650",
+   "chave2": "36.010,0150,04650"
+  },
+  {
+   "cenario": 301,
+   "codigo_atividade": "37.01",
+   "codigo_sap": "SV.37.01.00",
+   "aliquota": 0,
+   "chave1": "37.01000",
+   "chave2": "37.01000"
+  },
+  {
+   "cenario": 302,
+   "codigo_atividade": "38.01",
+   "codigo_sap": "SV.38.01.00",
+   "aliquota": 0,
+   "chave1": "38.01000",
+   "chave2": "38.01000"
+  },
+  {
+   "cenario": 303,
+   "codigo_atividade": "39.01",
+   "codigo_sap": "SV.39.01.00",
+   "aliquota": 0,
+   "chave1": "39.01000",
+   "chave2": "39.01000"
+  },
+  {
+   "cenario": 304,
+   "codigo_atividade": "40.01",
+   "codigo_sap": "SV.40.01.00",
+   "aliquota": 0,
+   "chave1": "40.01000",
+   "chave2": "40.01000"
+  },
+  {
+   "cenario": 305,
+   "codigo_atividade": "10.03",
+   "codigo_sap": "SV.10.03.01",
+   "aliquota": 0,
+   "chave1": "10.030,0150,04650",
+   "chave2": "10.030,0150,04650"
+  },
+  {
+   "cenario": 306,
+   "codigo_atividade": "14.02",
+   "codigo_sap": "SV.14.02.02",
+   "aliquota": 0,
+   "chave1": "14.020,0150,04650",
+   "chave2": "14.020,0150,04650"
+  },
+  {
+   "cenario": 307,
+   "codigo_atividade": "17.06",
+   "codigo_sap": "SV17.06.01",
+   "aliquota": 0,
+   "chave1": "17.060,01500",
+   "chave2": "17.060,01500"
+  }
+ ],
+ "origens": [
+  "0 – Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8;",
+  "1 – Estrangeira, importação direta, exceto a indicada no código 6;",
+  "2 – Estrangeira, adquirida no mercado interno, exceto a indicada no código 7;",
+  "3 – Nacional: mercadoria ou bem com conteúdo de importação superior a 40% e inferior ou igual a 70%;",
+  "4 – Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/1967, e as Leis nº 8.248/1991, 8.387/1991, 10.176/2001 e 11.484/2007;",
+  "5 – Nacional: mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40%;",
+  "6 – Estrangeira: importação direta, sem similar nacional, constante em lista de Resolução Camex e gás natural;",
+  "7 – Estrangeira: adquirida no mercado interno, sem similar nacional, constante em lista de Resolução Camex e gás natural;",
+  "8 – Nacional: mercadoria ou bem com Conteúdo de Importação superior a 70%;"
+ ]
+}

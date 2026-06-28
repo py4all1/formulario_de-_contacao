@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}Usuários — WeFix{% endblock %}
+{% block heading %}Usuários{% endblock %}
+
+{% block content %}
+<div class="grid cols-2" style="align-items:start">
+  <div class="card">
+    <div class="card-h">👤 Novo usuário</div>
+    <div class="card-b">
+      <p class="muted" style="margin-top:0">Crie quantos usuários quiser para a mesma empresa. Eles não têm acesso de administrador.</p>
+      <form method="post">
+        {% csrf_token %}
+        <div class="field"><label>Nome</label>{{ form.nome }}</div>
+        <div class="grid cols-2">
+          <div class="field"><label>Usuário (login)</label>{{ form.username }}</div>
+          <div class="field"><label>E-mail</label>{{ form.email }}</div>
+        </div>
+        <div class="field"><label>Empresa / Licença</label>{{ form.licenca }}</div>
+        <div class="field"><label>Senha</label>{{ form.password }}</div>
+        {% if form.errors %}<div class="alert danger">{{ form.non_field_errors }}{{ form.username.errors }}{{ form.password.errors }}{{ form.licenca.errors }}</div>{% endif %}
+        <button class="btn primary">Criar usuário</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h">Usuários cadastrados</div>
+    <div class="card-b" style="padding:0">
+      <table class="tbl">
+        <thead><tr><th>Usuário</th><th>Empresa</th><th>Status</th><th>Último acesso</th><th></th></tr></thead>
+        <tbody>
+          {% for u in usuarios %}
+          <tr>
+            <td><strong>{{ u.username }}</strong>{% if u.first_name %}<br><span class="muted">{{ u.first_name }}</span>{% endif %}{% if u.email %}<br><span class="muted">{{ u.email }}</span>{% endif %}</td>
+            <td>{% if u.perfil.licenca %}{{ u.perfil.licenca.cliente }}{% else %}<span class="muted">—</span>{% endif %}</td>
+            <td>{% if u.is_active %}<span class="badge ok">Ativo</span>{% else %}<span class="badge pend">Inativo</span>{% endif %}</td>
+            <td>{{ u.last_login|date:"d/m/Y H:i"|default:"nunca" }}</td>
+            <td style="white-space:nowrap">
+              <a class="btn sm outline" href="{% url 'usuario_senha' u.pk %}">Redefinir senha</a>
+              <form method="post" action="{% url 'usuario_toggle' u.pk %}" style="display:inline">
+                {% csrf_token %}
+                <button class="btn sm ghost" style="color:{% if u.is_active %}var(--danger){% else %}var(--ok){% endif %}">
+                  {% if u.is_active %}Desativar{% else %}Ativar{% endif %}</button>
+              </form>
+            </td>
+          </tr>
+          {% empty %}
+          <tr><td colspan="5" style="padding:24px;text-align:center" class="muted">Nenhum usuário cadastrado ainda.</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

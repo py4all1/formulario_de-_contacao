@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% block title %}Convites — WeFix{% endblock %}
+{% block heading %}Convites{% endblock %}
+
+{% block content %}
+<div class="grid cols-2" style="margin-bottom:18px;align-items:start">
+  <div class="card">
+    <div class="card-h">🔗 Gerar novo convite</div>
+    <div class="card-b">
+      <p class="muted" style="margin-top:0">Cada convite gera um link único para o fornecedor preencher a cotação — sem necessidade de login.</p>
+      <form method="post">
+        {% csrf_token %}
+        <div class="field"><label>{{ form.fornecedor_nome.label }}</label>{{ form.fornecedor_nome }}</div>
+        <div class="field"><label>{{ form.fornecedor_email.label }}</label>{{ form.fornecedor_email }}</div>
+        <div class="field"><label>{{ form.observacao.label }}</label>{{ form.observacao }}</div>
+        <div class="field"><label>{{ form.expira_em.label }} <span class="muted">(opcional)</span></label>{{ form.expira_em }}</div>
+        <button class="btn primary">Gerar link</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-h">Como funciona</div>
+    <div class="card-b">
+      <ol style="margin:0;padding-left:18px;line-height:1.9">
+        <li>Gere o convite (opcionalmente com nome/e-mail do fornecedor).</li>
+        <li>Copie o link e envie ao fornecedor por e-mail ou WhatsApp.</li>
+        <li>O fornecedor preenche o formulário dinâmico e envia.</li>
+        <li>A cotação aparece em <a href="{% url 'cotacao_lista' %}">Cotações</a>, pronta para download em JSON, Excel e PDF.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-h">Convites emitidos</div>
+  <div class="card-b" style="padding:0">
+    <table class="tbl">
+      <thead><tr>
+        <th>Fornecedor</th><th>Status</th><th>Link</th><th>Criado</th><th>Cotação</th><th></th>
+      </tr></thead>
+      <tbody>
+        {% for c in convites %}
+        <tr>
+          <td>
+            <strong>{{ c.fornecedor_nome|default:"—" }}</strong>
+            {% if c.fornecedor_email %}<br><span class="muted">{{ c.fornecedor_email }}</span>{% endif %}
+          </td>
+          <td>
+            {% if c.status == 'enviado' %}<span class="badge ok">Respondido</span>
+            {% elif c.expirado %}<span class="badge pend">Expirado</span>
+            {% else %}<span class="badge pend">Pendente</span>{% endif %}
+          </td>
+          <td>
+            <input type="text" class="form-control" readonly style="width:340px;display:inline-block"
+                   value="{{ request.scheme }}://{{ request.get_host }}{{ c.get_form_url }}"
+                   id="link-{{ c.id }}">
+            <button type="button" class="btn sm outline copybtn" data-target="link-{{ c.id }}">Copiar</button>
+          </td>
+          <td>{{ c.criado_em|date:"d/m/Y H:i" }}</td>
+          <td>
+            {% if c.cotacao %}<a href="{% url 'cotacao_detalhe' c.cotacao.pk %}" class="btn sm outline">Ver cotação</a>
+            {% else %}<span class="muted">—</span>{% endif %}
+          </td>
+          <td>
+            <form method="post" action="{% url 'convite_excluir' c.pk %}"
+                  onsubmit="return confirm('Remover este convite?')">
+              {% csrf_token %}
+              <button class="btn sm ghost" style="color:var(--danger)">Excluir</button>
+            </form>
+          </td>
+        </tr>
+        {% empty %}
+        <tr><td colspan="6" style="padding:30px;text-align:center" class="muted">Nenhum convite criado ainda.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.copybtn').forEach(b=>{
+  b.addEventListener('click',()=>{
+    const el=document.getElementById(b.dataset.target);
+    el.select();navigator.clipboard.writeText(el.value);
+    b.textContent='Copiado!';setTimeout(()=>b.textContent='Copiar',1500);
+  });
+});
+</script>
+{% endblock %}

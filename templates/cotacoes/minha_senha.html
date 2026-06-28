@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Minha senha — WeFix{% endblock %}
+{% block heading %}Alterar minha senha{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width:460px">
+  <div class="card-h">🔒 Trocar senha</div>
+  <div class="card-b">
+    <form method="post">
+      {% csrf_token %}
+      {% for field in form %}
+        <div class="field">
+          <label>{{ field.label }}</label>
+          {{ field }}
+          {% if field.errors %}<ul class="errorlist">{{ field.errors }}</ul>{% endif %}
+          {% if field.help_text %}<div class="help">{{ field.help_text|safe }}</div>{% endif %}
+        </div>
+      {% endfor %}
+      <button class="btn primary">Salvar nova senha</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

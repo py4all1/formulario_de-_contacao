@@ -1,0 +1,62 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}WeFix — Cotações{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><span class="logo">W</span> WeFix Cotações</div>
+    <nav>
+      <a href="{% url 'dashboard' %}" class="{% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}">📊 Painel</a>
+      <a href="{% url 'cotacao_lista' %}" class="{% if request.resolver_match.url_name == 'cotacao_lista' or request.resolver_match.url_name == 'cotacao_detalhe' %}active{% endif %}">📄 Cotações</a>
+      <a href="{% url 'convite_lista' %}" class="{% if request.resolver_match.url_name == 'convite_lista' %}active{% endif %}">🔗 Convites</a>
+      {% if request.user.is_superuser %}
+        <a href="{% url 'usuario_lista' %}" class="{% if request.resolver_match.url_name == 'usuario_lista' %}active{% endif %}">👥 Usuários</a>
+        <a href="{% url 'licenca_painel' %}" class="{% if request.resolver_match.url_name == 'licenca_painel' %}active{% endif %}">🔑 Licença</a>
+        <a href="/admin/">⚙️ Administração</a>
+      {% endif %}
+      <a href="{% url 'minha_senha' %}" class="{% if request.resolver_match.url_name == 'minha_senha' %}active{% endif %}">🔒 Minha senha</a>
+    </nav>
+    <div class="foot">
+      {{ request.user.get_username }}<br>
+      <form method="post" action="{% url 'logout' %}" style="display:inline">
+        {% csrf_token %}
+        <button type="submit" class="logout-link">Sair</button>
+      </form>
+    </div>
+  </aside>
+  <div class="main">
+    <div class="topbar">
+      <h1>{% block heading %}{% endblock %}</h1>
+      <div>{% block topbar_actions %}{% endblock %}</div>
+    </div>
+    <div class="content">
+      {% if licenca_expirada %}
+        <div class="alert danger">
+          ⚠️ <strong>Contrato vencido</strong> em {{ licenca.data_vencimento|date:"d/m/Y" }}.
+          {% if request.user.is_superuser %}<a href="{% url 'licenca_painel' %}">Renovar agora</a>.{% else %}Entre em contato com o fornecedor do sistema.{% endif %}
+        </div>
+      {% elif licenca_alerta %}
+        <div class="alert warning">
+          ⏰ <strong>Contrato vence em {{ licenca_dias }} dia{{ licenca_dias|pluralize }}</strong>
+          ({{ licenca.data_vencimento|date:"d/m/Y" }}).
+          {% if request.user.is_superuser %}<a href="{% url 'licenca_painel' %}">Renovar / reajustar (IPCA)</a>.{% else %}Contate o fornecedor para renovação.{% endif %}
+        </div>
+      {% endif %}
+      {% if messages %}
+        {% for m in messages %}
+          <div class="alert {{ m.tags }}">{{ m }}</div>
+        {% endfor %}
+      {% endif %}
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+</div>
+{% block scripts %}{% endblock %}
+</body>
+</html>

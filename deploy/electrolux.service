@@ -1,0 +1,34 @@
+# =============================================================================
+# systemd service - Gunicorn da app Electrolux
+# Destino na VPS: /etc/systemd/system/electrolux.service
+# Nome unico "electrolux" para nao colidir com as outras 3 aplicacoes.
+# =============================================================================
+[Unit]
+Description=Gunicorn (Electrolux - formulario de cotacao)
+After=network.target
+
+[Service]
+User=electrolux
+Group=www-data
+WorkingDirectory=/var/www/electrolux
+
+# Carrega DJANGO_SECRET_KEY, DJANGO_DEBUG, DJANGO_ALLOWED_HOSTS, etc.
+EnvironmentFile=/etc/electrolux.env
+
+# Cria /run/electrolux (dono = User acima) para o socket unix.
+RuntimeDirectory=electrolux
+RuntimeDirectoryMode=0750
+
+ExecStart=/var/www/electrolux/venv/bin/gunicorn \
+    --workers 3 \
+    --bind unix:/run/electrolux/gunicorn.sock \
+    --access-logfile /var/www/electrolux/logs/access.log \
+    --error-logfile /var/www/electrolux/logs/error.log \
+    config.wsgi:application
+
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

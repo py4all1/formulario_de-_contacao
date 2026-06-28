@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block title %}Licença — WeFix{% endblock %}
+{% block heading %}Licença / Contrato{% endblock %}
+
+{% block content %}
+{% if licenca %}
+<div class="grid cols-3" style="margin-bottom:18px">
+  <div class="card stat">
+    <div class="label">Situação</div>
+    <div class="value" style="font-size:24px">
+      {% if licenca.expirada %}<span class="badge pend">Expirada</span>
+      {% elif licenca.em_alerta %}<span class="badge pend">Vencendo</span>
+      {% else %}<span class="badge ok">Ativa</span>{% endif %}
+    </div>
+    <div class="sub">Vence em {{ licenca.data_vencimento|date:"d/m/Y" }}</div>
+  </div>
+  <div class="card stat">
+    <div class="label">Dias restantes</div>
+    <div class="value">{{ licenca.dias_restantes }}</div>
+    <div class="sub">alerta com {{ licenca.dias_alerta }} dias de antecedência</div>
+  </div>
+  <div class="card stat">
+    <div class="label">Valor anual ({{ licenca.indice_reajuste }})</div>
+    <div class="value">R$ {{ licenca.valor_atual|floatformat:2 }}</div>
+    <div class="sub">{{ licenca.cliente }}</div>
+  </div>
+</div>
+{% else %}
+<div class="alert info">Nenhuma licença cadastrada ainda. Preencha os dados abaixo para criar.</div>
+{% endif %}
+
+<div class="grid cols-2" style="align-items:start">
+  <div class="card">
+    <div class="card-h">{% if licenca %}Dados do contrato{% else %}Criar licença{% endif %}</div>
+    <div class="card-b">
+      <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="acao" value="salvar">
+        <div class="grid cols-2">
+          <div class="field"><label>Cliente</label>{{ form.cliente }}</div>
+          <div class="field"><label>Responsável</label>{{ form.responsavel }}</div>
+        </div>
+        <div class="field"><label>E-mail de contato</label>{{ form.email }}</div>
+        <div class="grid cols-2">
+          <div class="field"><label>Início do contrato</label>{{ form.data_inicio }}</div>
+          <div class="field"><label>Vencimento</label>{{ form.data_vencimento }}</div>
+        </div>
+        <div class="grid cols-3">
+          <div class="field"><label>Valor anual (R$)</label>{{ form.valor_atual }}</div>
+          <div class="field"><label>Índice</label>{{ form.indice_reajuste }}</div>
+          <div class="field"><label>Alerta (dias)</label>{{ form.dias_alerta }}</div>
+        </div>
+        <div class="field"><label>{{ form.ativa.label }}</label> {{ form.ativa }} <span class="muted">marque para esta ser a licença vigente</span></div>
+        <div class="field"><label>Observações</label>{{ form.observacoes }}</div>
+        {% if form.errors %}<div class="alert danger">{{ form.errors }}</div>{% endif %}
+        <button class="btn primary">Salvar</button>
+      </form>
+    </div>
+  </div>
+
+  <div>
+    {% if licenca %}
+    <div class="card" style="margin-bottom:18px">
+      <div class="card-h">📈 Renovar / Reajustar (IPCA)</div>
+      <div class="card-b">
+        <p class="muted" style="margin-top:0">Informe o IPCA acumulado do período. O sistema recalcula o valor
+          (<code>valor × (1 + IPCA%)</code>) e estende o vencimento, registrando no histórico.</p>
+        <form method="post">
+          {% csrf_token %}
+          <input type="hidden" name="acao" value="reajustar">
+          <div class="grid cols-2">
+            <div class="field"><label>{{ reajuste_form.percentual.label }}</label>{{ reajuste_form.percentual }}</div>
+            <div class="field"><label>{{ reajuste_form.meses.label }}</label>{{ reajuste_form.meses }}</div>
+          </div>
+          <div class="field"><label>{{ reajuste_form.observacao.label }}</label>{{ reajuste_form.observacao }}</div>
+          <button class="btn primary">Aplicar reajuste</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-h">Histórico de reajustes</div>
+      <div class="card-b" style="padding:0">
+        <table class="tbl">
+          <thead><tr><th>Data</th><th class="num">% IPCA</th><th class="num">De</th><th class="num">Para</th><th>Vencimento</th></tr></thead>
+          <tbody>
+            {% for r in reajustes %}
+            <tr>
+              <td>{{ r.data|date:"d/m/Y" }}</td>
+              <td class="num">{{ r.percentual }}%</td>
+              <td class="num">R$ {{ r.valor_anterior|floatformat:2 }}</td>
+              <td class="num"><strong>R$ {{ r.valor_novo|floatformat:2 }}</strong></td>
+              <td>{{ r.vencimento_anterior|date:"d/m/y" }} → {{ r.vencimento_novo|date:"d/m/y" }}</td>
+            </tr>
+            {% empty %}
+            <tr><td colspan="5" style="padding:24px;text-align:center" class="muted">Nenhum reajuste aplicado ainda.</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,4 @@
+# Garante que scripts shell sempre tenham fim de linha LF (Unix),
+# mesmo sendo editados/commitados no Windows. Evita erro "bad interpreter".
+*.sh    text eol=lf
+deploy/deploy.sh text eol=lf
