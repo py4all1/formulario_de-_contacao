@@ -201,9 +201,10 @@ Crie o arquivo (cole a chave gerada acima no lugar indicado):
 ```bash
 # nano /etc/electrolux.env
 ```
-Conteúdo (modelo em `deploy/.env.example`):
+Conteúdo (modelo em `deploy/.env.example`). **Coloque a `SECRET_KEY` entre aspas
+simples** — ela costuma ter caracteres como `(` `)` `&` `$`:
 ```
-DJANGO_SECRET_KEY=COLE_A_CHAVE_GERADA_AQUI
+DJANGO_SECRET_KEY='COLE_A_CHAVE_GERADA_AQUI'
 DJANGO_DEBUG=False
 DJANGO_ALLOWED_HOSTS=electrolux.taxcode.com.br
 DJANGO_CSRF_TRUSTED_ORIGINS=https://electrolux.taxcode.com.br

@@ -47,11 +47,26 @@ source venv/bin/activate
 pip install --upgrade pip >/dev/null
 pip install -r requirements.txt
 
-# Carrega as variaveis de producao para os comandos manage.py
-set -a
-# shellcheck disable=SC1091
-source /etc/electrolux.env
-set +a
+# Carrega as variaveis de producao para os comandos manage.py.
+# Lemos linha-a-linha (sem "source") para tratar o valor como texto literal,
+# igual ao systemd faz. Assim caracteres especiais da SECRET_KEY como ( ) & $
+# nao quebram o script, com ou sem aspas no arquivo.
+ENV_FILE="/etc/electrolux.env"
+if [ -f "$ENV_FILE" ]; then
+    while IFS= read -r line || [ -n "$line" ]; do
+        case "$line" in
+            ''|'#'*) continue ;;          # ignora linhas vazias e comentarios
+        esac
+        key="${line%%=*}"
+        val="${line#*=}"
+        # remove aspas externas (simples ou duplas), se houver
+        val="${val%\"}"; val="${val#\"}"
+        val="${val%\'}"; val="${val#\'}"
+        export "$key=$val"
+    done < "$ENV_FILE"
+else
+    echo "AVISO: $ENV_FILE nao encontrado." >&2
+fi
 
 echo "==> [4/6] Aplicando migracoes..."
 python manage.py migrate --noinput
