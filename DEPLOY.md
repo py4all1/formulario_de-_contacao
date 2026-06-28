@@ -288,13 +288,23 @@ Teste final: `https://electrolux.taxcode.com.br` com cadeado. ✅
 ## Etapa 8 — Liberar o `deploy.sh` (atualizações futuras)
 
 O script reinicia o serviço, o que exige `sudo`. Para que o usuário `electrolux`
-faça isso sem senha (apenas este serviço, nada mais):
+faça isso sem senha (apenas o `restart` deste serviço, nada mais).
 
+Confirme primeiro o caminho do `systemctl` (Ubuntu novo costuma ser `/usr/bin`):
 ```bash
-# echo 'electrolux ALL=(root) NOPASSWD: /bin/systemctl restart electrolux, /bin/systemctl status electrolux' > /etc/sudoers.d/electrolux
+# which systemctl     # ex.: /usr/bin/systemctl
+```
+Crie a regra com esse caminho (ajuste se for diferente):
+```bash
+# echo 'electrolux ALL=(root) NOPASSWD: /usr/bin/systemctl restart electrolux' > /etc/sudoers.d/electrolux
 # chmod 440 /etc/sudoers.d/electrolux
+# visudo -c                 # valida a sintaxe do sudoers (deve dizer "parsed OK")
 # chmod +x /var/www/electrolux/deploy/deploy.sh
 ```
+
+> Só o `restart` precisa de sudo. O `systemctl status` é somente leitura e roda
+> sem privilégio — por isso o `deploy.sh` não usa `sudo` para mostrar o status
+> (evita o prompt de senha que aparecia no final).
 
 ---
 

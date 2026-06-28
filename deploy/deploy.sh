@@ -79,7 +79,10 @@ sudo systemctl restart "$SERVICE"
 
 echo ""
 echo "==> Deploy concluido. Status do servico:"
-sudo systemctl status "$SERVICE" --no-pager --lines 5
+# 'status' e somente leitura: NAO precisa de sudo (evita pedir senha).
+# '|| true' porque o status retorna codigo != 0 quando o servico esta parado,
+# e nao queremos que o 'set -e' aborte so por causa do relatorio.
+systemctl status "$SERVICE" --no-pager --lines 5 || true
 
 echo ""
 echo "OK! https://electrolux.taxcode.com.br"
