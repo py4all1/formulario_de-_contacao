@@ -308,16 +308,26 @@ $ git commit -m "minha alteração"
 $ git push origin main
 ```
 
-**2. Na VPS:**
+**2. Na VPS** (pode rodar como `root` ou com qualquer usuário sudo):
 ```bash
-# su - electrolux        # entra como o usuário da app (ou: sudo -u electrolux -s)
-$ cd /var/www/electrolux
-$ ./deploy/deploy.sh
+# /var/www/electrolux/deploy/deploy.sh
 ```
+
+O script detecta se foi chamado por outro usuário e **se reexecuta sozinho como
+`electrolux`** (o dono do repositório). Isso evita o erro do Git
+`dubious ownership` e garante que banco/estáticos fiquem com o dono certo.
+
+> Se preferir ser explícito, o equivalente manual é:
+> `sudo -H -u electrolux bash /var/www/electrolux/deploy/deploy.sh`
 
 O `deploy.sh` faz tudo: `git pull` → `pip install` → `migrate` → `collectstatic`
 → reinicia **só** o serviço `electrolux`. O banco `db.sqlite3` **não é tocado**
 (fica fora do Git), então **nenhum dado é perdido** num deploy.
+
+> **Por que não rodar como `root` direto?** O Gunicorn roda como `electrolux` e o
+> banco SQLite precisa ser gravável por ele. Se o deploy rodasse como root, o
+> `migrate`/`collectstatic` criariam arquivos com dono `root` e o app passaria a
+> dar erro de permissão ao escrever no banco. Por isso o script força `electrolux`.
 
 ---
 

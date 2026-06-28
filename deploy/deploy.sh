@@ -3,8 +3,9 @@
 # Script de DEPLOY / ATUALIZACAO - app Electrolux
 # Local na VPS: /var/www/electrolux/deploy/deploy.sh
 #
-# Uso:
-#   cd /var/www/electrolux && ./deploy/deploy.sh
+# Uso (de qualquer usuario com sudo, ou ja como electrolux):
+#   /var/www/electrolux/deploy/deploy.sh
+# Se chamado como root, ele se reexecuta sozinho como o usuario "electrolux".
 #
 # O que faz (em ordem, parando no primeiro erro):
 #   1. Garante que esta na pasta certa
@@ -21,8 +22,17 @@
 set -euo pipefail
 
 APP_DIR="/var/www/electrolux"
+APP_USER="electrolux"
 SERVICE="electrolux"
 BRANCH="${1:-main}"   # opcional: ./deploy/deploy.sh main
+
+# Este app roda como o usuario "electrolux" e o repositorio pertence a ele.
+# Se alguem chamar o script como root (ou outro usuario), reexecuta como
+# electrolux para evitar "dubious ownership" no git e arquivos com dono errado.
+if [ "$(id -un)" != "$APP_USER" ]; then
+    echo "==> Reexecutando como usuario '$APP_USER'..."
+    exec sudo -H -u "$APP_USER" bash "$APP_DIR/deploy/deploy.sh" "$@"
+fi
 
 cd "$APP_DIR"
 
