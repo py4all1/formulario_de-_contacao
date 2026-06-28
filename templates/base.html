@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}WeFix — Cotações{% endblock %}</title>
+  <title>{% block title %}Electrolux — Cotações{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body>
 <div class="app">
   <aside class="sidebar">
-    <div class="brand"><span class="logo">W</span> WeFix Cotações</div>
+    <div class="brand"><span class="logo">E</span> Electrolux Cotações</div>
     <nav>
       <a href="{% url 'dashboard' %}" class="{% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}">📊 Painel</a>
       <a href="{% url 'cotacao_lista' %}" class="{% if request.resolver_match.url_name == 'cotacao_lista' or request.resolver_match.url_name == 'cotacao_detalhe' %}active{% endif %}">📄 Cotações</a>
